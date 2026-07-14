@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yakka Dee 台词本 · 总目录</title>
+<style>
+:root{{--bg:#f7f7f8;--card:#fff;--text:#222;--muted:#666;--accent:#f9a825;--border:#e5e5e5}}
+*{{box-sizing:border-box}}
+body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);margin:0}}
+header{{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--border);padding:14px 16px}}
+.container{{max-width:920px;margin:0 auto;padding:0 16px}}
+header .container{{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}}
+h1{{font-size:20px;margin:0}} .sub{{color:var(--muted);font-size:13px}}
+.toggles{{display:flex;gap:8px;flex-wrap:wrap}}
+button{{border:1px solid #d1d1d1;background:#fff;border-radius:6px;padding:8px 14px;font-size:14px;cursor:pointer}}
+button:hover{{border-color:var(--accent)}} button.active{{background:var(--accent);border-color:var(--accent);color:#fff}}
+.section{{margin:28px 0 14px}} .section h2{{font-size:18px;border-left:4px solid var(--accent);padding-left:10px;margin:0}}
+.line-card{{display:flex;gap:14px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px;margin:10px 0}}
+.line-card:hover{{box-shadow:0 2px 8px rgba(0,0,0,.08)}}
+.line-thumb{{flex:0 0 220px;max-width:220px}} .line-thumb img{{width:100%;height:auto;border-radius:6px;display:block}}
+.line-body{{flex:1;display:flex;flex-direction:column;justify-content:center;gap:6px}}
+.line-meta{{font-size:12px;color:var(--muted)}} .time{{margin-left:6px}}
+.line-en{{font-size:18px;font-weight:600;line-height:1.5}} .line-cn{{font-size:15px;color:var(--muted);line-height:1.5}}
+body.hide-images .line-thumb{{display:none}} body.hide-images .line-card{{display:block;padding:14px}}
+body.hide-cn .line-cn{{display:none}}
+@media(max-width:640px){{.line-card{{flex-direction:column}} .line-thumb{{flex:1;max-width:100%}} header .container{{flex-direction:column;align-items:flex-start}}}}
+@media print{{.toggles{{display:none}} .line-thumb{{page-break-inside:avoid}}}}
+</style></head>
+<body>
+<header><div class="container">
+<div><h1>Yakka Dee 台词本</h1><div class="sub">第一季前5集 · 点击下方进入各集</div></div>
+<div class="toggles"><a href="index.html" style="text-decoration:none"><button>🏠 总目录</button></a>
+<button id="btnImg" class="active" onclick="toggle('images')">📷 图片</button>
+<button id="btnCn" class="active" onclick="toggle('cn')">🇨🇳 翻译</button></div>
+</div></header>
+<main class="container">
+<div class="ep-grid"><a class="ep" href="banana.html"><div class="ep-card">
+      <img src="images/banana/line_020.jpg" alt="Banana">
+      <div class="ep-info"><div class="ep-title">第1季 · Banana</div><div class="ep-zh">香蕉</div></div></a><a class="ep" href="dog.html"><div class="ep-card">
+      <img src="images/dog/line_022.jpg" alt="Dog">
+      <div class="ep-info"><div class="ep-title">第1季 · Dog</div><div class="ep-zh">狗</div></div></a><a class="ep" href="book.html"><div class="ep-card">
+      <img src="images/book/line_019.jpg" alt="Book">
+      <div class="ep-info"><div class="ep-title">第1季 · Book</div><div class="ep-zh">书</div></div></a><a class="ep" href="boots.html"><div class="ep-card">
+      <img src="images/boots/line_023.jpg" alt="Boots">
+      <div class="ep-info"><div class="ep-title">第1季 · Boots</div><div class="ep-zh">靴子</div></div></a><a class="ep" href="bike.html"><div class="ep-card">
+      <img src="images/bike/line_032.jpg" alt="Bike">
+      <div class="ep-info"><div class="ep-title">第1季 · Bike</div><div class="ep-zh">自行车</div></div></a></div>
+<style>.ep-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin:24px 0}
+.ep{text-decoration:none;color:inherit}.ep-card{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#fff}
+.ep-card img{width:100%;height:140px;object-fit:cover;display:block}.ep-info{padding:10px 12px}
+.ep-title{font-weight:600}.ep-zh{color:var(--muted);font-size:13px}</style></main>
+<script>function toggle(k){{document.body.classList.toggle('hide-'+k);document.getElementById(k==='images'?'btnImg':'btnCn').classList.toggle('active');}}</script>
+</body></html>
