@@ -16,17 +16,22 @@ HTML_DIR = ROOT / "html"
 
 
 def main():
-    # 处理新 5 集：解析旧版 HTML，生成图书风格 HTML
-    for ep, en, zh, thumb in bu.EPISODES[5:]:
+    # 起始索引：本批新剧集在 EPISODES 中的起点（默认 10 = Batch 3）
+    start = int(sys.argv[1]) if len(sys.argv) > 1 else 10
+    # 处理新一批：解析旧版 HTML，生成图书风格 HTML
+    for ep, en, zh, thumb in bu.EPISODES[start:]:
         html_path = HTML_DIR / f"{ep}.html"
         title, sections = bu.parse_episode(html_path)
+        if not sections:
+            print(f"跳过 {ep}：未找到旧版章节（可能已转换，请检查）")
+            continue
         display_title = re.sub(r"Yakka Dee 台词本 · ", "", title)
         new_html = bu.build_episode_html(ep, display_title, sections)
         html_path.write_text(new_html, encoding="utf-8")
         total = sum(len(s["lines"]) for s in sections)
         print(f"已生成图书风格 {html_path}，共 {total} 句")
 
-    # 重新生成总目录（使用全部 10 集）
+    # 重新生成总目录（使用全部剧集）
     index_path = HTML_DIR / "index.html"
     index_path.write_text(bu.build_index_html(), encoding="utf-8")
     print(f"已重新生成 {index_path}")

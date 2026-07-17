@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yakka Dee 台词本 · Lion（狮子）</title>
+
+<style>
+:root { --paper: #fffdf5; --ink: #2c3e50; --muted: #7f8c8d; --accent: #f9a825; --border: #e5e5e5; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; background: #e8e0d5; color: var(--ink); margin: 0; padding-bottom: 40px; }
+header { position: sticky; top: 0; z-index: 20; background: #fff; border-bottom: 3px solid var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.header-inner { max-width: 1200px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.header-title { display: flex; align-items: center; gap: 12px; }
+.header-mascot { width: 44px; height: 44px; border-radius: 50%; background: var(--accent); display: grid; place-items: center; font-size: 24px; box-shadow: 0 2px 6px rgba(0,0,0,.15); }
+.header-h1 { font-size: 20px; font-weight: 700; margin: 0; }
+.header-sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.toggles { display: flex; gap: 8px; flex-wrap: wrap; }
+button { border: 2px solid #d1d1d1; background: #fff; border-radius: 8px; padding: 8px 14px; font-size: 14px; cursor: pointer; font-weight: 600; transition: all .15s; }
+button:hover { border-color: var(--accent); color: var(--accent); }
+button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.book { max-width: 1200px; margin: 24px auto; background: var(--paper); border-radius: 12px; box-shadow: 0 0 24px rgba(0,0,0,.15); min-height: 80vh; overflow: hidden; }
+.spread { display: flex; gap: 16px; padding: 20px; border-bottom: 2px dashed #ddd; page-break-inside: avoid; }
+.page { flex: 1; background: #fff; border-radius: 14px; box-shadow: 0 4px 12px rgba(0,0,0,.1); display: flex; flex-direction: column; min-height: 520px; overflow: hidden; border: 1px solid #ececec; }
+.page-header { background: var(--section-color); color: #fff; padding: 10px 14px; display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; border-bottom: 3px solid rgba(0,0,0,.08); }
+.page-mascot { width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,.25); display: grid; place-items: center; font-size: 18px; }
+.page-title { flex: 1; }
+.card-grid { flex: 1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; padding: 14px; align-content: start; }
+.card { border: 2px solid #f4f4f4; border-radius: 14px; background: #fff; padding: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.05); transition: transform .15s; display: flex; flex-direction: column; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,.1); border-color: var(--section-color); }
+.card-thumb { width: 90px; height: 90px; margin: 0 auto 8px; border-radius: 50%; overflow: hidden; border: 3px solid var(--section-color); background: #f9f9f9; }
+.card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card-body { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.card-en { font-size: 15px; font-weight: 700; line-height: 1.35; color: var(--ink); }
+.card-cn { font-size: 13px; color: var(--muted); line-height: 1.35; }
+.card-meta { font-size: 11px; color: #aaa; margin-top: 4px; }
+.page-footer { text-align: center; padding: 8px; font-size: 12px; color: #bbb; border-top: 1px solid #f4f4f4; }
+.blank-page { background: repeating-linear-gradient(45deg, #fff, #fff 10px, #fafafa 10px, #fafafa 20px); }
+body.hide-images .card-thumb { display: none; }
+body.hide-cn .card-cn { display: none; }
+@media (max-width: 900px) { .spread { flex-direction: column; } .page { min-height: auto; } .card-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .header-inner { flex-direction: column; align-items: flex-start; } .card-grid { grid-template-columns: repeat(2, 1fr); } .card-thumb { width: 70px; height: 70px; } }
+@media (max-width: 400px) { .card-grid { grid-template-columns: 1fr; } }
+@media print { header { position: static; } .toggles { display: none; } .spread { break-inside: avoid; page-break-inside: avoid; } .card { break-inside: avoid; } }
+</style>
+
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-title">
+      <span class="header-mascot">🎤</span>
+      <div>
+        <div class="header-h1">Lion（狮子）</div>
+        <div class="header-sub">共 94 句</div>
+      </div>
+    </div>
+    
+    <div class="toggles">
+      <a href="index.html" style="text-decoration:none"><button>🏠 总目录</button></a>
+      <button id="btnImg" class="active" onclick="toggle('images')">🖼️ 图片</button>
+      <button id="btnCn" class="active" onclick="toggle('cn')">🔤 翻译</button>
+    </div>
+  </div>
+</header>
+
+<main class="book">
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#9b59b6">
+  <div class="page-header">
+    <span class="page-mascot">🎵</span>
+    <span class="page-title">🎵 片头主题曲</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_001.jpg" alt="截图：- Dee? Where are you?
+- I&#x27;ve s" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Dee? Where are you?
+- I&#x27;ve seen her. Over there.</div>
+    <div class="card-cn">- 迪伊？你在哪里？
+- 我见过她。在那边。</div>
+    <div class="card-meta">#1 · 0:02 → 0:06</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_002.jpg" alt="截图：Dee?" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Dee?</div>
+    <div class="card-cn">迪伊？</div>
+    <div class="card-meta">#2 · 0:06 → 0:08</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_003.jpg" alt="截图：# Yakka Dee! Yakka Dee!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Yakka Dee! Yakka Dee!</div>
+    <div class="card-cn">【歌曲】雅卡迪！雅卡迪！</div>
+    <div class="card-meta">#3 · 0:08 → 0:11</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_004.jpg" alt="截图：# Yakka Dee! Yakka Dee!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Yakka Dee! Yakka Dee!</div>
+    <div class="card-cn">【歌曲】雅卡迪！雅卡迪！</div>
+    <div class="card-meta">#4 · 0:11 → 0:12</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_005.jpg" alt="截图：# My name is Dee, I like to ta" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># My name is Dee, I like to talk</div>
+    <div class="card-cn">【歌曲】我叫迪伊，我喜欢说话</div>
+    <div class="card-meta">#5 · 0:12 → 0:14</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_006.jpg" alt="截图：- # They call me Yakka Dee!
+- " loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- # They call me Yakka Dee!
+- # Dee</div>
+    <div class="card-cn">- # 他们叫我 雅卡 迪伊！
+-#迪伊</div>
+    <div class="card-meta">#6 · 0:14 → 0:16</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_007.jpg" alt="截图：# Talking makes us happy" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Talking makes us happy</div>
+    <div class="card-cn">【歌曲】说话让我们快乐</div>
+    <div class="card-meta">#7 · 0:16 → 0:18</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_008.jpg" alt="截图：- # Will you Yakka Yak with me" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- # Will you Yakka Yak with me?
+- # Me</div>
+    <div class="card-cn">- # 你愿意和我一起 雅卡 Yak 吗？
+- ＃ 我</div>
+    <div class="card-meta">#8 · 0:18 → 0:21</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 1</div>
+</div>
+
+  
+<div class="page page-right" style="--section-color:#9b59b6">
+  <div class="page-header">
+    <span class="page-mascot">🎵</span>
+    <span class="page-title">片头主题曲</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_009.jpg" alt="截图：# Bus, mouse, apple, house" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Bus, mouse, apple, house</div>
+    <div class="card-cn">【歌曲】巴士、老鼠、苹果、房子</div>
+    <div class="card-meta">#9 · 0:21 → 0:24</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_010.jpg" alt="截图：- # Yakka Yak
+- # Yakka Dee!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- # Yakka Yak
+- # Yakka Dee!</div>
+    <div class="card-cn">- # 雅卡牦牛
+- # 雅卡迪伊！</div>
+    <div class="card-meta">#10 · 0:24 → 0:26</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_011.jpg" alt="截图：- # I know you can
+- # Yakka D" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- # I know you can
+- # Yakka Dee!</div>
+    <div class="card-cn">- # 我知道你可以
+- # 雅卡迪伊！</div>
+    <div class="card-meta">#11 · 0:26 → 0:28</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_012.jpg" alt="截图：- # You&#x27;ll get filled up
+- # Y" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- # You&#x27;ll get filled up
+- # Yakka Dee!</div>
+    <div class="card-cn">- # 你会被填满
+- # 雅卡迪伊！</div>
+    <div class="card-meta">#12 · 0:28 → 0:30</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_013.jpg" alt="截图：# With whizz, pop, bang" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># With whizz, pop, bang</div>
+    <div class="card-cn">【歌曲】伴随着嗞、啵、嘭</div>
+    <div class="card-meta">#13 · 0:30 → 0:33</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_014.jpg" alt="截图：# Yakka Dee! Yakka Dee! Let&#x27;s " loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Yakka Dee! Yakka Dee! Let&#x27;s all Yakka Dee! #</div>
+    <div class="card-cn">【歌曲】雅卡迪！雅卡迪！让我们都雅卡迪！ #</div>
+    <div class="card-meta">#14 · 0:33 → 0:37</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 2</div>
+</div>
+
+</div>
+
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#f39c12">
+  <div class="page-header">
+    <span class="page-mascot">🎲</span>
+    <span class="page-title">🎲 今天学哪个词</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_015.jpg" alt="截图：What will our Yakka be today?" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">What will our Yakka be today?</div>
+    <div class="card-cn">今天我们学什么词呢？</div>
+    <div class="card-meta">#15 · 0:38 → 0:41</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_016.jpg" alt="截图：Dog." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Dog.</div>
+    <div class="card-cn">狗。</div>
+    <div class="card-meta">#16 · 0:41 → 0:43</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_017.jpg" alt="截图：Duck." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Duck.</div>
+    <div class="card-cn">鸭子。</div>
+    <div class="card-meta">#17 · 0:43 → 0:44</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_018.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#18 · 0:44 → 0:45</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 3</div>
+</div>
+
+  <div class="page page-right blank-page"><div class="page-footer">Page 4</div></div>
+</div>
+
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">📺 单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_019.jpg" alt="截图：Mouse." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Mouse.</div>
+    <div class="card-cn">老鼠。</div>
+    <div class="card-meta">#19 · 0:45 → 0:46</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_020.jpg" alt="截图：- Lion.
+- Hurray!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Lion.
+- Hurray!</div>
+    <div class="card-cn">- 狮子。
+- 万岁！</div>
+    <div class="card-meta">#20 · 0:52 → 0:55</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_021.jpg" alt="截图：Lion. You say lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. You say lion.</div>
+    <div class="card-cn">狮子。你说狮子。</div>
+    <div class="card-meta">#21 · 0:56 → 1:00</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_022.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#22 · 1:00 → 1:02</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_023.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#23 · 1:02 → 1:03</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_024.jpg" alt="截图：Lion. Raa!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. Raa!</div>
+    <div class="card-cn">狮子。哇！</div>
+    <div class="card-meta">#24 · 1:03 → 1:05</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_025.jpg" alt="截图：You say lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">You say lion.</div>
+    <div class="card-cn">你说狮子。</div>
+    <div class="card-meta">#25 · 1:05 → 1:08</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_026.jpg" alt="截图：I&#x27;ll help you. Let&#x27;s go." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">I&#x27;ll help you. Let&#x27;s go.</div>
+    <div class="card-cn">我来帮你。我们走吧。</div>
+    <div class="card-meta">#26 · 1:08 → 1:10</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 5</div>
+</div>
+
+  
+<div class="page page-right" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_027.jpg" alt="截图：Lion. Big lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. Big lion.</div>
+    <div class="card-cn">狮子。大狮子.</div>
+    <div class="card-meta">#27 · 1:11 → 1:14</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_028.jpg" alt="截图：Baby lions." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Baby lions.</div>
+    <div class="card-cn">狮子宝宝。</div>
+    <div class="card-meta">#28 · 1:16 → 1:18</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_029.jpg" alt="截图：- Roaring lion. Raa!
+- Raa!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Roaring lion. Raa!
+- Raa!</div>
+    <div class="card-cn">- 咆哮的狮子。哇！
+- 拉阿！</div>
+    <div class="card-meta">#29 · 1:20 → 1:25</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_030.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#30 · 1:26 → 1:28</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_031.jpg" alt="截图：Ooh! Handsome lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Ooh! Handsome lion.</div>
+    <div class="card-cn">哦！帅气的狮子。</div>
+    <div class="card-meta">#31 · 1:30 → 1:33</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_032.jpg" alt="截图：- Hairy lion.
+- Ah!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Hairy lion.
+- Ah!</div>
+    <div class="card-cn">- 毛茸茸的狮子。
+- 啊！</div>
+    <div class="card-meta">#32 · 1:35 → 1:38</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_033.jpg" alt="截图：LION ROARS" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">LION ROARS</div>
+    <div class="card-cn">【LION ROARS】</div>
+    <div class="card-meta">#33 · 1:40 → 1:41</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_034.jpg" alt="截图：- Ooh! Scary lion.
+- Sorry." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Ooh! Scary lion.
+- Sorry.</div>
+    <div class="card-cn">- 哦！可怕的狮子。
+- 对不起。</div>
+    <div class="card-meta">#34 · 1:41 → 1:44</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 6</div>
+</div>
+
+</div>
+
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_035.jpg" alt="截图：THEY LAUGH" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">THEY LAUGH</div>
+    <div class="card-cn">【他们笑了】</div>
+    <div class="card-meta">#35 · 1:44 → 1:46</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_036.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#36 · 1:46 → 1:47</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_037.jpg" alt="截图：LION GARGLES" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">LION GARGLES</div>
+    <div class="card-cn">【LION GARGLES】</div>
+    <div class="card-meta">#37 · 1:51 → 1:53</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_038.jpg" alt="截图：Teethy lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Teethy lion.</div>
+    <div class="card-cn">有牙齿的狮子。</div>
+    <div class="card-meta">#38 · 1:53 → 1:54</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_039.jpg" alt="截图：- BOTH:
+- Lalalalala!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- BOTH:
+- Lalalalala!</div>
+    <div class="card-cn">- 两者：
+- 啦啦啦啦啦！</div>
+    <div class="card-meta">#39 · 1:56 → 1:58</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_040.jpg" alt="截图：Cheeky lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Cheeky lion.</div>
+    <div class="card-cn">厚脸皮的狮子。</div>
+    <div class="card-meta">#40 · 1:58 → 1:59</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_041.jpg" alt="截图：- Hide and seeky lion.
+- Sh!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Hide and seeky lion.
+- Sh!</div>
+    <div class="card-cn">- 捉迷藏的狮子。
+- 嘘！</div>
+    <div class="card-meta">#41 · 2:01 → 2:05</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_042.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#42 · 2:06 → 2:07</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 7</div>
+</div>
+
+  
+<div class="page page-right" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_043.jpg" alt="截图：- Ooh!
+- Love you, lion.
+- Mm!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Ooh!
+- Love you, lion.
+- Mm!</div>
+    <div class="card-cn">- 哦！
+- 爱你，狮子。
+- 毫米！</div>
+    <div class="card-meta">#43 · 2:11 → 2:14</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_044.jpg" alt="截图：WHISPERS: Sleeping lion. Sh!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">WHISPERS: Sleeping lion. Sh!</div>
+    <div class="card-cn">低语：睡狮。嘘！</div>
+    <div class="card-meta">#44 · 2:16 → 2:18</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_045.jpg" alt="截图：Leaping lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Leaping lion.</div>
+    <div class="card-cn">跳跃的狮子。</div>
+    <div class="card-meta">#45 · 2:22 → 2:24</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_046.jpg" alt="截图：I&#x27;m a lion. Raa!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">I&#x27;m a lion. Raa!</div>
+    <div class="card-cn">我是一只狮子。哇！</div>
+    <div class="card-meta">#46 · 2:26 → 2:28</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_047.jpg" alt="截图：- Lion.
+- Hurray!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Lion.
+- Hurray!</div>
+    <div class="card-cn">- 狮子。
+- 万岁！</div>
+    <div class="card-meta">#47 · 2:29 → 2:32</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_048.jpg" alt="截图：Lion. You say lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. You say lion.</div>
+    <div class="card-cn">狮子。你说狮子。</div>
+    <div class="card-meta">#48 · 2:33 → 2:36</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_049.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#49 · 2:37 → 2:38</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_050.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#50 · 2:38 → 2:40</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 8</div>
+</div>
+
+</div>
+
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_051.jpg" alt="截图：Lion. Raa!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. Raa!</div>
+    <div class="card-cn">狮子。哇！</div>
+    <div class="card-meta">#51 · 2:40 → 2:42</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_052.jpg" alt="截图：- Lion.
+- Raa!
+- Yakka Yak!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Lion.
+- Raa!
+- Yakka Yak!</div>
+    <div class="card-cn">- 狮子。
+- 拉阿！
+- 雅卡牦牛！</div>
+    <div class="card-meta">#52 · 2:44 → 2:47</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_053.jpg" alt="截图：I know you can." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">I know you can.</div>
+    <div class="card-cn">我知道你可以。</div>
+    <div class="card-meta">#53 · 2:47 → 2:49</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_054.jpg" alt="截图：It will fill you up with whizz" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">It will fill you up with whizz, pop, bang!</div>
+    <div class="card-cn">它会让你吃饱，嗞、啵、嘭！</div>
+    <div class="card-meta">#54 · 2:49 → 2:53</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_055.jpg" alt="截图：Lion. You say lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. You say lion.</div>
+    <div class="card-cn">狮子。你说狮子。</div>
+    <div class="card-meta">#55 · 2:53 → 2:56</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_056.jpg" alt="截图：More lion. Let&#x27;s go again." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">More lion. Let&#x27;s go again.</div>
+    <div class="card-cn">更多狮子。我们再去吧。</div>
+    <div class="card-meta">#56 · 2:58 → 3:01</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_057.jpg" alt="截图：Lion. Big lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. Big lion.</div>
+    <div class="card-cn">狮子。大狮子.</div>
+    <div class="card-meta">#57 · 3:03 → 3:06</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_058.jpg" alt="截图：Baby lions." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Baby lions.</div>
+    <div class="card-cn">狮子宝宝。</div>
+    <div class="card-meta">#58 · 3:08 → 3:09</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 9</div>
+</div>
+
+  
+<div class="page page-right" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_059.jpg" alt="截图：Roaring lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Roaring lion.</div>
+    <div class="card-cn">咆哮的狮子。</div>
+    <div class="card-meta">#59 · 3:11 → 3:13</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_060.jpg" alt="截图：- Raa!
+- Wow!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Raa!
+- Wow!</div>
+    <div class="card-cn">- 拉阿！
+- 哇！</div>
+    <div class="card-meta">#60 · 3:13 → 3:16</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_061.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#61 · 3:18 → 3:20</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_062.jpg" alt="截图：Ooh! Handsome lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Ooh! Handsome lion.</div>
+    <div class="card-cn">哦！帅气的狮子。</div>
+    <div class="card-meta">#62 · 3:21 → 3:24</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_063.jpg" alt="截图：- Hairy lion.
+- Ah!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Hairy lion.
+- Ah!</div>
+    <div class="card-cn">- 毛茸茸的狮子。
+- 啊！</div>
+    <div class="card-meta">#63 · 3:27 → 3:30</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_064.jpg" alt="截图：LION ROARS" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">LION ROARS</div>
+    <div class="card-cn">【LION ROARS】</div>
+    <div class="card-meta">#64 · 3:31 → 3:32</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_065.jpg" alt="截图：- Ooh! Scary lion.
+- Sorry." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Ooh! Scary lion.
+- Sorry.</div>
+    <div class="card-cn">- 哦！可怕的狮子。
+- 对不起。</div>
+    <div class="card-meta">#65 · 3:32 → 3:36</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_066.jpg" alt="截图：THEY LAUGH" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">THEY LAUGH</div>
+    <div class="card-cn">【他们笑了】</div>
+    <div class="card-meta">#66 · 3:36 → 3:38</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 10</div>
+</div>
+
+</div>
+
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_067.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#67 · 3:38 → 3:39</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_068.jpg" alt="截图：LION GARGLES" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">LION GARGLES</div>
+    <div class="card-cn">【LION GARGLES】</div>
+    <div class="card-meta">#68 · 3:42 → 3:44</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_069.jpg" alt="截图：Teethy lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Teethy lion.</div>
+    <div class="card-cn">有牙齿的狮子。</div>
+    <div class="card-meta">#69 · 3:44 → 3:45</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_070.jpg" alt="截图：- BOTH:
+- Lalalalala!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- BOTH:
+- Lalalalala!</div>
+    <div class="card-cn">- 两者：
+- 啦啦啦啦啦！</div>
+    <div class="card-meta">#70 · 3:47 → 3:49</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_071.jpg" alt="截图：Cheeky lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Cheeky lion.</div>
+    <div class="card-cn">厚脸皮的狮子。</div>
+    <div class="card-meta">#71 · 3:49 → 3:50</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_072.jpg" alt="截图：Hide and seeky lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Hide and seeky lion.</div>
+    <div class="card-cn">捉迷藏的狮子。</div>
+    <div class="card-meta">#72 · 3:52 → 3:55</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_073.jpg" alt="截图：LION CHUCKLES" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">LION CHUCKLES</div>
+    <div class="card-cn">【LION CHUCKLES】</div>
+    <div class="card-meta">#73 · 3:55 → 3:57</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_074.jpg" alt="截图：THEY LAUGH" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">THEY LAUGH</div>
+    <div class="card-cn">【他们笑了】</div>
+    <div class="card-meta">#74 · 3:57 → 3:58</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 11</div>
+</div>
+
+  
+<div class="page page-right" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_075.jpg" alt="截图：Found you, lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Found you, lion.</div>
+    <div class="card-cn">找到你了，狮子。</div>
+    <div class="card-meta">#75 · 3:58 → 3:59</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_076.jpg" alt="截图：Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion.</div>
+    <div class="card-cn">狮子。</div>
+    <div class="card-meta">#76 · 4:01 → 4:02</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_077.jpg" alt="截图：- Ooh!
+- Love you, lion.
+- Mm!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Ooh!
+- Love you, lion.
+- Mm!</div>
+    <div class="card-cn">- 哦！
+- 爱你，狮子。
+- 毫米！</div>
+    <div class="card-meta">#77 · 4:04 → 4:07</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_078.jpg" alt="截图：WHISPERS: Sleeping lion. Sh!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">WHISPERS: Sleeping lion. Sh!</div>
+    <div class="card-cn">低语：睡狮。嘘！</div>
+    <div class="card-meta">#78 · 4:09 → 4:12</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_079.jpg" alt="截图：Leaping lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Leaping lion.</div>
+    <div class="card-cn">跳跃的狮子。</div>
+    <div class="card-meta">#79 · 4:15 → 4:17</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_080.jpg" alt="截图：Wow!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Wow!</div>
+    <div class="card-cn">哇！</div>
+    <div class="card-meta">#80 · 4:19 → 4:20</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_081.jpg" alt="截图：I&#x27;m a lion. Raa!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">I&#x27;m a lion. Raa!</div>
+    <div class="card-cn">我是一只狮子。哇！</div>
+    <div class="card-meta">#81 · 4:21 → 4:23</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_082.jpg" alt="截图：Lion. Yakka Yak! I know you ca" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Lion. Yakka Yak! I know you can.</div>
+    <div class="card-cn">狮子。雅卡牦牛！我知道你可以。</div>
+    <div class="card-meta">#82 · 4:23 → 4:26</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 12</div>
+</div>
+
+</div>
+
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#3498db">
+  <div class="page-header">
+    <span class="page-mascot">📺</span>
+    <span class="page-title">单词探险</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_083.jpg" alt="截图：It will fill you up with whizz" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">It will fill you up with whizz, pop, bang!</div>
+    <div class="card-cn">它会让你吃饱，嗞、啵、嘭！</div>
+    <div class="card-meta">#83 · 4:26 → 4:30</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_084.jpg" alt="截图：- You say lion.
+- Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- You say lion.
+- Lion.</div>
+    <div class="card-cn">- 你说狮子。
+- 狮子。</div>
+    <div class="card-meta">#84 · 4:30 → 4:33</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_085.jpg" alt="截图：Yeah! Yakka Dee!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Yeah! Yakka Dee!</div>
+    <div class="card-cn">耶！雅卡迪！</div>
+    <div class="card-meta">#85 · 4:34 → 4:38</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_086.jpg" alt="截图：You did it! Yeah! Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">You did it! Yeah! Lion.</div>
+    <div class="card-cn">你做到了！是的！狮子。</div>
+    <div class="card-meta">#86 · 4:38 → 4:40</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_087.jpg" alt="截图：- Lion.
+- Lion.
+- Lion." loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- Lion.
+- Lion.
+- Lion.</div>
+    <div class="card-cn">- 狮子。
+- 狮子。
+- 狮子。</div>
+    <div class="card-meta">#87 · 4:40 → 4:43</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_088.jpg" alt="截图：# Hurray, yippee! We love to t" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Hurray, yippee! We love to talk</div>
+    <div class="card-cn">【歌曲】万岁，耶！我们爱说话</div>
+    <div class="card-meta">#88 · 4:45 → 4:47</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_089.jpg" alt="截图：- # Yakka Yak with me
+- # Me" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">- # Yakka Yak with me
+- # Me</div>
+    <div class="card-cn">- # 雅卡 Yak 和我在一起
+- #我</div>
+    <div class="card-meta">#89 · 4:47 → 4:49</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 13</div>
+</div>
+
+  <div class="page page-right blank-page"><div class="page-footer">Page 14</div></div>
+</div>
+
+
+<div class="spread">
+  
+<div class="page page-left" style="--section-color:#e91e63">
+  <div class="page-header">
+    <span class="page-mascot">🎵</span>
+    <span class="page-title">🎵 片尾曲</span>
+  </div>
+  <div class="card-grid">
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_090.jpg" alt="截图：# Talking makes us happy" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Talking makes us happy</div>
+    <div class="card-cn">【歌曲】说话让我们快乐</div>
+    <div class="card-meta">#90 · 4:49 → 4:51</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_091.jpg" alt="截图：# It&#x27;s fun to Yakka Dee" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># It&#x27;s fun to Yakka Dee</div>
+    <div class="card-cn">【歌曲】雅卡 迪伊 很有趣</div>
+    <div class="card-meta">#91 · 4:51 → 4:53</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_092.jpg" alt="截图：# Yakka Dee! Yakka Dee! Yakka " loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Yakka Dee! Yakka Dee! Yakka Dee! Yakka Dee!</div>
+    <div class="card-cn">【歌曲】雅卡迪！雅卡迪！雅卡迪！雅卡迪！</div>
+    <div class="card-meta">#92 · 4:53 → 4:57</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_093.jpg" alt="截图：# Let&#x27;s all Yakka Dee! #" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en"># Let&#x27;s all Yakka Dee! #</div>
+    <div class="card-cn">【歌曲】大家一起雅卡迪吧！</div>
+    <div class="card-meta">#93 · 4:57 → 5:00</div>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-thumb">
+    <img src="images/lion/line_094.jpg" alt="截图：Goodbye!" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="card-en">Goodbye!</div>
+    <div class="card-cn">再见！</div>
+    <div class="card-meta">#94 · 5:00 → 5:02</div>
+  </div>
+</div>
+</div>
+  <div class="page-footer">Page 15</div>
+</div>
+
+  <div class="page page-right blank-page"><div class="page-footer">Page 16</div></div>
+</div>
+
+</main>
+
+<script>
+function toggle(k){
+  document.body.classList.toggle('hide-'+k);
+  document.getElementById(k==='images'?'btnImg':'btnCn').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>

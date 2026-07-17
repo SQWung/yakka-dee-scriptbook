@@ -1,0 +1,578 @@
+[
+  {
+    "text": "Dee? Where are you? I've seen her!",
+    "from": "0:02",
+    "to": "0:04",
+    "cn": "迪伊？你在哪儿？我看见她了！"
+  },
+  {
+    "text": "Over there!",
+    "from": "0:04",
+    "to": "0:06",
+    "cn": "在那边！"
+  },
+  {
+    "text": "Dee!",
+    "from": "0:06",
+    "to": "0:07",
+    "cn": "迪伊！"
+  },
+  {
+    "text": "He-he-he!",
+    "from": "0:07",
+    "to": "0:08",
+    "cn": "嘿嘿嘿！"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee, Yakka Dee, Yakka Dee",
+    "from": "0:08",
+    "to": "0:12",
+    "cn": "【歌曲】雅卡迪，雅卡迪，雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# My name is Dee, I like to talk",
+    "from": "0:12",
+    "to": "0:14",
+    "cn": "【歌曲】我叫迪伊，我喜欢说话"
+  },
+  {
+    "text": "- # They call me Yakka Dee\n- # Dee!",
+    "from": "0:14",
+    "to": "0:16",
+    "cn": "- # 他们叫我 雅卡 迪伊\n-#迪伊！"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "0:16",
+    "to": "0:18",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "- # Will you Yakka Yak with me?\n- # Me!",
+    "from": "0:18",
+    "to": "0:20",
+    "cn": "- # 你愿意和我一起 雅卡 Yak 吗？\n- ＃ 我！"
+  },
+  {
+    "text": "# Bus, mouse, apple, house",
+    "from": "0:20",
+    "to": "0:24",
+    "cn": "【歌曲】巴士、老鼠、苹果、房子"
+  },
+  {
+    "text": "- # Yakka Yak\n- # Yakka Dee",
+    "from": "0:24",
+    "to": "0:26",
+    "cn": "- # 雅卡牦牛\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # I know you can\n- # Yakka Dee",
+    "from": "0:26",
+    "to": "0:28",
+    "cn": "- # 我知道你可以\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # You'll get filled up\n- # Yakka Dee",
+    "from": "0:28",
+    "to": "0:30",
+    "cn": "- # 你会被填满\n- # 雅卡迪伊"
+  },
+  {
+    "text": "# With whizz, pop, bang",
+    "from": "0:30",
+    "to": "0:32",
+    "cn": "【歌曲】伴随着嗞、啵、嘭"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee",
+    "from": "0:32",
+    "to": "0:34",
+    "cn": "【歌曲】雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "0:34",
+    "to": "0:38",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "What will our Yakka be today?",
+    "from": "0:38",
+    "to": "0:40",
+    "cn": "今天我们学什么词呢？"
+  },
+  {
+    "text": "Worm, ball, hat, boots.",
+    "from": "0:42",
+    "to": "0:46",
+    "cn": "虫子、球、帽子、靴子。"
+  },
+  {
+    "text": "DRUM ROLL",
+    "from": "0:46",
+    "to": "0:50",
+    "cn": "【鼓声】"
+  },
+  {
+    "text": "Worm.",
+    "from": "0:52",
+    "to": "0:54",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "- CHILDREN:\n- Hooray!",
+    "from": "0:54",
+    "to": "0:56",
+    "cn": "- 儿童：\n- 万岁！"
+  },
+  {
+    "text": "Worm.",
+    "from": "0:56",
+    "to": "0:57",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "You say worm.",
+    "from": "0:57",
+    "to": "0:59",
+    "cn": "你说虫子。"
+  },
+  {
+    "text": "Worm.",
+    "from": "1:00",
+    "to": "1:02",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Worm.",
+    "from": "1:02",
+    "to": "1:04",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Worm.",
+    "from": "1:04",
+    "to": "1:05",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "You say worm.",
+    "from": "1:07",
+    "to": "1:09",
+    "cn": "你说虫子。"
+  },
+  {
+    "text": "I'll help you. Let's go.",
+    "from": "1:10",
+    "to": "1:13",
+    "cn": "我来帮你。我们走吧。"
+  },
+  {
+    "text": "Worm.",
+    "from": "1:15",
+    "to": "1:17",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Long worm.",
+    "from": "1:17",
+    "to": "1:20",
+    "cn": "长虫."
+  },
+  {
+    "text": "Little worm.",
+    "from": "1:20",
+    "to": "1:21",
+    "cn": "小虫子。"
+  },
+  {
+    "text": "Squirmy worm!",
+    "from": "1:25",
+    "to": "1:27",
+    "cn": "蠕动的蠕虫！"
+  },
+  {
+    "text": "Worm.",
+    "from": "1:29",
+    "to": "1:30",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "People.",
+    "from": "1:31",
+    "to": "1:32",
+    "cn": "人们。"
+  },
+  {
+    "text": "Slow worm.",
+    "from": "1:34",
+    "to": "1:36",
+    "cn": "缓慢的蠕虫。"
+  },
+  {
+    "text": "Speedy worm.",
+    "from": "1:38",
+    "to": "1:40",
+    "cn": "速度快的蠕虫。"
+  },
+  {
+    "text": "Ah! Greedy worm!",
+    "from": "1:43",
+    "to": "1:46",
+    "cn": "啊!贪婪的蠕虫！"
+  },
+  {
+    "text": "- EVERYONE:\n- Worm!\n- Ha-ha-ha!",
+    "from": "1:48",
+    "to": "1:50",
+    "cn": "- 大家：\n- 蠕虫！\n- 哈哈哈！"
+  },
+  {
+    "text": "Hee-hee, jelly worm!",
+    "from": "1:51",
+    "to": "1:53",
+    "cn": "嘻嘻，果冻虫！"
+  },
+  {
+    "text": "Welly worm.",
+    "from": "1:56",
+    "to": "1:57",
+    "cn": "威利蠕虫。"
+  },
+  {
+    "text": "Sad worm.",
+    "from": "2:02",
+    "to": "2:03",
+    "cn": "悲伤的蠕虫。"
+  },
+  {
+    "text": "Worm.",
+    "from": "2:08",
+    "to": "2:09",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Wow! Glow-worm.",
+    "from": "2:14",
+    "to": "2:18",
+    "cn": "哇！萤火虫。"
+  },
+  {
+    "text": "Muddy worm.",
+    "from": "2:18",
+    "to": "2:20",
+    "cn": "泥泞的蠕虫。"
+  },
+  {
+    "text": "Hee-hee!",
+    "from": "2:20",
+    "to": "2:22",
+    "cn": "嘻嘻！"
+  },
+  {
+    "text": "Aww, buddy worm.",
+    "from": "2:24",
+    "to": "2:27",
+    "cn": "哇哦，虫友。"
+  },
+  {
+    "text": "Worm!",
+    "from": "2:28",
+    "to": "2:29",
+    "cn": "蠕虫！"
+  },
+  {
+    "text": "Worm!",
+    "from": "2:30",
+    "to": "2:32",
+    "cn": "蠕虫！"
+  },
+  {
+    "text": "- CHILDREN:\n- Hooray!",
+    "from": "2:32",
+    "to": "2:34",
+    "cn": "- 儿童：\n- 万岁！"
+  },
+  {
+    "text": "Worm.",
+    "from": "2:35",
+    "to": "2:36",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "You say worm.",
+    "from": "2:36",
+    "to": "2:38",
+    "cn": "你说虫子。"
+  },
+  {
+    "text": "Worm.",
+    "from": "2:39",
+    "to": "2:40",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Worm.",
+    "from": "2:40",
+    "to": "2:42",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Worm.",
+    "from": "2:42",
+    "to": "2:43",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Worm.",
+    "from": "2:44",
+    "to": "2:47",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Yakka Yak, I know you can,",
+    "from": "2:47",
+    "to": "2:49",
+    "cn": "雅卡 Yak，我知道你可以，"
+  },
+  {
+    "text": "it will fill you up with whizz, pop, bang!",
+    "from": "2:49",
+    "to": "2:53",
+    "cn": "它会让你充满嗖嗖、流行、爆炸的感觉！"
+  },
+  {
+    "text": "Worm.",
+    "from": "2:53",
+    "to": "2:55",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "You say worm.",
+    "from": "2:55",
+    "to": "2:56",
+    "cn": "你说虫子。"
+  },
+  {
+    "text": "More worm! Let's go again.",
+    "from": "2:58",
+    "to": "3:02",
+    "cn": "更多蠕虫！我们再去吧。"
+  },
+  {
+    "text": "Worm.",
+    "from": "3:03",
+    "to": "3:05",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Long worm.",
+    "from": "3:05",
+    "to": "3:08",
+    "cn": "长虫."
+  },
+  {
+    "text": "Little worm.",
+    "from": "3:08",
+    "to": "3:09",
+    "cn": "小虫子。"
+  },
+  {
+    "text": "Squirmy worm!",
+    "from": "3:13",
+    "to": "3:15",
+    "cn": "蠕动的蠕虫！"
+  },
+  {
+    "text": "Worm.",
+    "from": "3:17",
+    "to": "3:18",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "People.",
+    "from": "3:19",
+    "to": "3:21",
+    "cn": "人们。"
+  },
+  {
+    "text": "Slow worm.",
+    "from": "3:23",
+    "to": "3:25",
+    "cn": "缓慢的蠕虫。"
+  },
+  {
+    "text": "Speedy worm.",
+    "from": "3:26",
+    "to": "3:28",
+    "cn": "速度快的蠕虫。"
+  },
+  {
+    "text": "Ah! Greedy worm!",
+    "from": "3:32",
+    "to": "3:36",
+    "cn": "啊!贪婪的蠕虫！"
+  },
+  {
+    "text": "- CHILDREN:\n- Worm!\n- Ha-ha-ha!",
+    "from": "3:37",
+    "to": "3:40",
+    "cn": "- 儿童：\n- 蠕虫！\n- 哈哈哈！"
+  },
+  {
+    "text": "Hee-hee, jelly worm!",
+    "from": "3:40",
+    "to": "3:42",
+    "cn": "嘻嘻，果冻虫！"
+  },
+  {
+    "text": "Welly worm.",
+    "from": "3:44",
+    "to": "3:46",
+    "cn": "威利蠕虫。"
+  },
+  {
+    "text": "Sad worm.",
+    "from": "3:50",
+    "to": "3:52",
+    "cn": "悲伤的蠕虫。"
+  },
+  {
+    "text": "Yay! Happy worm.",
+    "from": "3:52",
+    "to": "3:55",
+    "cn": "耶！快乐的蠕虫。"
+  },
+  {
+    "text": "Worm.",
+    "from": "3:58",
+    "to": "3:59",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Wow! Glow-worm.",
+    "from": "4:04",
+    "to": "4:08",
+    "cn": "哇！萤火虫。"
+  },
+  {
+    "text": "Muddy worm.",
+    "from": "4:08",
+    "to": "4:10",
+    "cn": "泥泞的蠕虫。"
+  },
+  {
+    "text": "Hee-hee!",
+    "from": "4:11",
+    "to": "4:12",
+    "cn": "嘻嘻！"
+  },
+  {
+    "text": "Aww, buddy worm.",
+    "from": "4:14",
+    "to": "4:17",
+    "cn": "哇哦，虫友。"
+  },
+  {
+    "text": "Yay!",
+    "from": "4:17",
+    "to": "4:18",
+    "cn": "耶！"
+  },
+  {
+    "text": "Worm!",
+    "from": "4:19",
+    "to": "4:21",
+    "cn": "蠕虫！"
+  },
+  {
+    "text": "Worm.",
+    "from": "4:22",
+    "to": "4:23",
+    "cn": "蠕虫。"
+  },
+  {
+    "text": "Yakka Yak, I know you can,",
+    "from": "4:23",
+    "to": "4:26",
+    "cn": "雅卡 Yak，我知道你可以，"
+  },
+  {
+    "text": "it will fill you up with whizz, pop, bang!",
+    "from": "4:26",
+    "to": "4:30",
+    "cn": "它会让你充满嗖嗖、流行、爆炸的感觉！"
+  },
+  {
+    "text": "You say worm.",
+    "from": "4:30",
+    "to": "4:32",
+    "cn": "你说虫子。"
+  },
+  {
+    "text": "Worm!",
+    "from": "4:32",
+    "to": "4:34",
+    "cn": "蠕虫！"
+  },
+  {
+    "text": "Yeah! Yakka Dee!",
+    "from": "4:34",
+    "to": "4:37",
+    "cn": "耶！雅卡迪！"
+  },
+  {
+    "text": "You did it! Yeah!",
+    "from": "4:37",
+    "to": "4:39",
+    "cn": "你做到了！是的！"
+  },
+  {
+    "text": "- Worm!\n- Worm!\n- Worm!\n- Worm!",
+    "from": "4:39",
+    "to": "4:42",
+    "cn": "- 蠕虫！\n- 蠕虫！\n- 蠕虫！\n- 蠕虫！"
+  },
+  {
+    "text": "# Hooray, yippee, we love to talk",
+    "from": "4:44",
+    "to": "4:46",
+    "cn": "【歌曲】万岁，yippee，我们喜欢说话"
+  },
+  {
+    "text": "- # Yakka Yak with me\n- # Me",
+    "from": "4:46",
+    "to": "4:48",
+    "cn": "- # 雅卡 Yak 和我在一起\n- #我"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "4:48",
+    "to": "4:50",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "# It's fun to Yakka Dee",
+    "from": "4:50",
+    "to": "4:52",
+    "cn": "【歌曲】雅卡 迪伊 很有趣"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee, Yakka Dee, Yakka Dee",
+    "from": "4:52",
+    "to": "4:56",
+    "cn": "【歌曲】雅卡迪，雅卡迪，雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "4:56",
+    "to": "5:00",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "Goodbye!",
+    "from": "5:00",
+    "to": "5:01",
+    "cn": "再见！"
+  }
+]

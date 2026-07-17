@@ -34,6 +34,11 @@ EPISODES = [
     ("bus", "Bus", "公交车", "line_024.jpg"),
     ("peas", "Peas", "豌豆", "line_019.jpg"),
     ("hat", "Hat", "帽子", "line_019.jpg"),
+    ("worm", "Worm", "虫子", "line_030.jpg"),
+    ("boat", "Boat", "船", "line_030.jpg"),
+    ("house", "House", "房子", "line_030.jpg"),
+    ("lion", "Lion", "狮子", "line_030.jpg"),
+    ("apple", "Apple", "苹果", "line_030.jpg"),
 ]
 
 
@@ -173,7 +178,7 @@ def build_episode_html(episode, title, sections):
 
 def build_index_html():
     """生成总目录（图书封面风格）。"""
-    colors = ['#f39c12','#e74c3c','#3498db','#2ecc71','#9b59b6','#1abc9c','#e91e63','#34495e','#f1c40f','#8e44ad']
+    colors = ['#f39c12','#e74c3c','#3498db','#2ecc71','#9b59b6','#1abc9c','#e91e63','#34495e','#f1c40f','#8e44ad','#16a085','#d35400','#c0392b','#2980b9','#27ae60']
     cards = "\n".join(
         f"""
 <a class="ep-cover" href="{ep}.html" style="--ep-color:{colors[i]}">
@@ -211,11 +216,11 @@ def build_index_html():
 </style>
 </head>
 <body>
-{build_header("Yakka Dee 台词本", "第一季前10集 · 点击封面进入各集", include_toggles=False)}
+{build_header("Yakka Dee 台词本", "第一季前15集 · 点击封面进入各集", include_toggles=False)}
 <main class="book">
   <div class="book-cover">
     <h1>📚 Yakka Dee 台词本</h1>
-    <div class="subtitle">第一季前 10 集 · 逐句翻译 + 截图</div>
+    <div class="subtitle">第一季前 15 集 · 逐句翻译 + 截图</div>
     <div class="badge">🖼️ 图片 · 🔤 翻译 均可一键关闭</div>
   </div>
   <div class="ep-shelf">

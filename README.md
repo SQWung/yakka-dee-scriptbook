@@ -1,6 +1,6 @@
 # Yakka Dee 台词本（Scriptbook）
 
-基于 BBC 儿童英语启蒙动画 **Yakka Dee** 第一季前 10 集（Banana / Dog / Book / Boots / Bike / Duck / Cup / Bus / Peas / Hat）
+基于 BBC 儿童英语启蒙动画 **Yakka Dee** 第一季前 15 集（Banana / Dog / Book / Boots / Bike / Duck / Cup / Bus / Peas / Hat / Worm / Boat / House / Lion / Apple）
 制作的「台词本」。每一句台词都配有：
 
 - **中文翻译**
@@ -25,6 +25,11 @@
 | Bus    | 113 | 113 |
 | Peas   | 107 | 107 |
 | Hat    | 102 | 102 |
+| Worm   |  96 |  96 |
+| Boat   | 105 | 105 |
+| House  | 101 | 101 |
+| Lion   |  94 |  94 |
+| Apple  |  96 |  96 |
 
 ---
 
@@ -53,11 +58,11 @@
 ├── .gitignore
 ├── dict_zh.py            # 英文→中文翻译词典（含 tr() 兜底逻辑）
 ├── data/                 # 每集字幕与翻译（JSON）
-│   ├── banana_subs.json  …  hat_subs.json
+│   ├── banana_subs.json  …  apple_subs.json
 └── html/                 # 台词本页面（自包含，CSS/JS 均内联）
     ├── index.html
-    ├── banana.html  …  hat.html
-    └── images/          # 1071 张逐句截图（按剧集分目录）
+    ├── banana.html  …  apple.html
+    └── images/          # 1563 张逐句截图（按剧集分目录）
 ```
 
 ---
