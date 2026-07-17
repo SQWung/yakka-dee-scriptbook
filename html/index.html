@@ -1,52 +1,146 @@
 <!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="UTF-8">
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yakka Dee 台词本 · 总目录</title>
+
 <style>
-:root{{--bg:#f7f7f8;--card:#fff;--text:#222;--muted:#666;--accent:#f9a825;--border:#e5e5e5}}
-*{{box-sizing:border-box}}
-body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);margin:0}}
-header{{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--border);padding:14px 16px}}
-.container{{max-width:920px;margin:0 auto;padding:0 16px}}
-header .container{{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}}
-h1{{font-size:20px;margin:0}} .sub{{color:var(--muted);font-size:13px}}
-.toggles{{display:flex;gap:8px;flex-wrap:wrap}}
-button{{border:1px solid #d1d1d1;background:#fff;border-radius:6px;padding:8px 14px;font-size:14px;cursor:pointer}}
-button:hover{{border-color:var(--accent)}} button.active{{background:var(--accent);border-color:var(--accent);color:#fff}}
-.section{{margin:28px 0 14px}} .section h2{{font-size:18px;border-left:4px solid var(--accent);padding-left:10px;margin:0}}
-.line-card{{display:flex;gap:14px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px;margin:10px 0}}
-.line-card:hover{{box-shadow:0 2px 8px rgba(0,0,0,.08)}}
-.line-thumb{{flex:0 0 220px;max-width:220px}} .line-thumb img{{width:100%;height:auto;border-radius:6px;display:block}}
-.line-body{{flex:1;display:flex;flex-direction:column;justify-content:center;gap:6px}}
-.line-meta{{font-size:12px;color:var(--muted)}} .time{{margin-left:6px}}
-.line-en{{font-size:18px;font-weight:600;line-height:1.5}} .line-cn{{font-size:15px;color:var(--muted);line-height:1.5}}
-body.hide-images .line-thumb{{display:none}} body.hide-images .line-card{{display:block;padding:14px}}
-body.hide-cn .line-cn{{display:none}}
-@media(max-width:640px){{.line-card{{flex-direction:column}} .line-thumb{{flex:1;max-width:100%}} header .container{{flex-direction:column;align-items:flex-start}}}}
-@media print{{.toggles{{display:none}} .line-thumb{{page-break-inside:avoid}}}}
-</style></head>
+:root { --paper: #fffdf5; --ink: #2c3e50; --muted: #7f8c8d; --accent: #f9a825; --border: #e5e5e5; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; background: #e8e0d5; color: var(--ink); margin: 0; padding-bottom: 40px; }
+header { position: sticky; top: 0; z-index: 20; background: #fff; border-bottom: 3px solid var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.header-inner { max-width: 1200px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.header-title { display: flex; align-items: center; gap: 12px; }
+.header-mascot { width: 44px; height: 44px; border-radius: 50%; background: var(--accent); display: grid; place-items: center; font-size: 24px; box-shadow: 0 2px 6px rgba(0,0,0,.15); }
+.header-h1 { font-size: 20px; font-weight: 700; margin: 0; }
+.header-sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.toggles { display: flex; gap: 8px; flex-wrap: wrap; }
+button { border: 2px solid #d1d1d1; background: #fff; border-radius: 8px; padding: 8px 14px; font-size: 14px; cursor: pointer; font-weight: 600; transition: all .15s; }
+button:hover { border-color: var(--accent); color: var(--accent); }
+button.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.book { max-width: 1200px; margin: 24px auto; background: var(--paper); border-radius: 12px; box-shadow: 0 0 24px rgba(0,0,0,.15); min-height: 80vh; overflow: hidden; }
+.spread { display: flex; gap: 16px; padding: 20px; border-bottom: 2px dashed #ddd; page-break-inside: avoid; }
+.page { flex: 1; background: #fff; border-radius: 14px; box-shadow: 0 4px 12px rgba(0,0,0,.1); display: flex; flex-direction: column; min-height: 520px; overflow: hidden; border: 1px solid #ececec; }
+.page-header { background: var(--section-color); color: #fff; padding: 10px 14px; display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; border-bottom: 3px solid rgba(0,0,0,.08); }
+.page-mascot { width: 32px; height: 32px; border-radius: 50%; background: rgba(255,255,255,.25); display: grid; place-items: center; font-size: 18px; }
+.page-title { flex: 1; }
+.card-grid { flex: 1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; padding: 14px; align-content: start; }
+.card { border: 2px solid #f4f4f4; border-radius: 14px; background: #fff; padding: 10px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,.05); transition: transform .15s; display: flex; flex-direction: column; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0,0,0,.1); border-color: var(--section-color); }
+.card-thumb { width: 90px; height: 90px; margin: 0 auto 8px; border-radius: 50%; overflow: hidden; border: 3px solid var(--section-color); background: #f9f9f9; }
+.card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card-body { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.card-en { font-size: 15px; font-weight: 700; line-height: 1.35; color: var(--ink); }
+.card-cn { font-size: 13px; color: var(--muted); line-height: 1.35; }
+.card-meta { font-size: 11px; color: #aaa; margin-top: 4px; }
+.page-footer { text-align: center; padding: 8px; font-size: 12px; color: #bbb; border-top: 1px solid #f4f4f4; }
+.blank-page { background: repeating-linear-gradient(45deg, #fff, #fff 10px, #fafafa 10px, #fafafa 20px); }
+body.hide-images .card-thumb { display: none; }
+body.hide-cn .card-cn { display: none; }
+@media (max-width: 900px) { .spread { flex-direction: column; } .page { min-height: auto; } .card-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .header-inner { flex-direction: column; align-items: flex-start; } .card-grid { grid-template-columns: repeat(2, 1fr); } .card-thumb { width: 70px; height: 70px; } }
+@media (max-width: 400px) { .card-grid { grid-template-columns: 1fr; } }
+@media print { header { position: static; } .toggles { display: none; } .spread { break-inside: avoid; page-break-inside: avoid; } .card { break-inside: avoid; } }
+</style>
+
+<style>
+.book-cover { text-align:center; padding: 40px 20px 20px; }
+.book-cover h1 { font-size: 42px; margin: 0 0 8px; color: var(--ink); letter-spacing: 2px; }
+.book-cover .subtitle { color: var(--muted); font-size: 18px; margin-bottom: 8px; }
+.book-cover .badge { display:inline-block; background: var(--accent); color: #fff; padding: 6px 16px; border-radius: 20px; font-size: 14px; margin-top: 10px; }
+.ep-shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 18px; padding: 24px; }
+.ep-cover { text-decoration: none; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,.12); border-top: 6px solid var(--ep-color); transition: transform .15s, box-shadow .15s; display: flex; flex-direction: column; }
+.ep-cover:hover { transform: translateY(-4px); box-shadow: 0 6px 16px rgba(0,0,0,.18); }
+.ep-thumb img { width: 100%; height: 110px; object-fit: cover; display: block; }
+.ep-info { padding: 12px; text-align: center; }
+.ep-en { font-size: 18px; font-weight: 700; color: var(--ink); }
+.ep-zh { font-size: 14px; color: var(--muted); margin-top: 2px; }
+.ep-ep { font-size: 12px; color: var(--accent); margin-top: 6px; font-weight: 600; }
+@media (max-width: 480px) { .book-cover h1 { font-size: 28px; } .ep-shelf { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
 <body>
-<header><div class="container">
-<div><h1>Yakka Dee 台词本</h1><div class="sub">第一季前5集 · 点击下方进入各集</div></div>
-<div class="toggles"><a href="index.html" style="text-decoration:none"><button>🏠 总目录</button></a>
-<button id="btnImg" class="active" onclick="toggle('images')">📷 图片</button>
-<button id="btnCn" class="active" onclick="toggle('cn')">🇨🇳 翻译</button></div>
-</div></header>
-<main class="container">
-<div class="ep-grid"><a class="ep" href="banana.html"><div class="ep-card">
-      <img src="images/banana/line_020.jpg" alt="Banana">
-      <div class="ep-info"><div class="ep-title">第1季 · Banana</div><div class="ep-zh">香蕉</div></div></a><a class="ep" href="dog.html"><div class="ep-card">
-      <img src="images/dog/line_022.jpg" alt="Dog">
-      <div class="ep-info"><div class="ep-title">第1季 · Dog</div><div class="ep-zh">狗</div></div></a><a class="ep" href="book.html"><div class="ep-card">
-      <img src="images/book/line_019.jpg" alt="Book">
-      <div class="ep-info"><div class="ep-title">第1季 · Book</div><div class="ep-zh">书</div></div></a><a class="ep" href="boots.html"><div class="ep-card">
-      <img src="images/boots/line_023.jpg" alt="Boots">
-      <div class="ep-info"><div class="ep-title">第1季 · Boots</div><div class="ep-zh">靴子</div></div></a><a class="ep" href="bike.html"><div class="ep-card">
-      <img src="images/bike/line_032.jpg" alt="Bike">
-      <div class="ep-info"><div class="ep-title">第1季 · Bike</div><div class="ep-zh">自行车</div></div></a></div>
-<style>.ep-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin:24px 0}
-.ep{text-decoration:none;color:inherit}.ep-card{border:1px solid var(--border);border-radius:10px;overflow:hidden;background:#fff}
-.ep-card img{width:100%;height:140px;object-fit:cover;display:block}.ep-info{padding:10px 12px}
-.ep-title{font-weight:600}.ep-zh{color:var(--muted);font-size:13px}</style></main>
-<script>function toggle(k){{document.body.classList.toggle('hide-'+k);document.getElementById(k==='images'?'btnImg':'btnCn').classList.toggle('active');}}</script>
-</body></html>
+
+<header>
+  <div class="header-inner">
+    <div class="header-title">
+      <span class="header-mascot">🎤</span>
+      <div>
+        <div class="header-h1">Yakka Dee 台词本</div>
+        <div class="header-sub">第一季前5集 · 点击封面进入各集</div>
+      </div>
+    </div>
+    
+  </div>
+</header>
+
+<main class="book">
+  <div class="book-cover">
+    <h1>📚 Yakka Dee 台词本</h1>
+    <div class="subtitle">第一季前 5 集 · 逐句翻译 + 截图</div>
+    <div class="badge">🖼️ 图片 · 🔤 翻译 均可一键关闭</div>
+  </div>
+  <div class="ep-shelf">
+    
+<a class="ep-cover" href="banana.html" style="--ep-color:#f39c12">
+  <div class="ep-thumb"><img src="images/banana/line_020.jpg" alt="Banana"></div>
+  <div class="ep-info">
+    <div class="ep-en">Banana</div>
+    <div class="ep-zh">香蕉</div>
+    <div class="ep-ep">第 1 集</div>
+  </div>
+</a>
+
+
+<a class="ep-cover" href="dog.html" style="--ep-color:#e74c3c">
+  <div class="ep-thumb"><img src="images/dog/line_022.jpg" alt="Dog"></div>
+  <div class="ep-info">
+    <div class="ep-en">Dog</div>
+    <div class="ep-zh">狗</div>
+    <div class="ep-ep">第 2 集</div>
+  </div>
+</a>
+
+
+<a class="ep-cover" href="book.html" style="--ep-color:#3498db">
+  <div class="ep-thumb"><img src="images/book/line_019.jpg" alt="Book"></div>
+  <div class="ep-info">
+    <div class="ep-en">Book</div>
+    <div class="ep-zh">书</div>
+    <div class="ep-ep">第 3 集</div>
+  </div>
+</a>
+
+
+<a class="ep-cover" href="boots.html" style="--ep-color:#2ecc71">
+  <div class="ep-thumb"><img src="images/boots/line_023.jpg" alt="Boots"></div>
+  <div class="ep-info">
+    <div class="ep-en">Boots</div>
+    <div class="ep-zh">靴子</div>
+    <div class="ep-ep">第 4 集</div>
+  </div>
+</a>
+
+
+<a class="ep-cover" href="bike.html" style="--ep-color:#9b59b6">
+  <div class="ep-thumb"><img src="images/bike/line_032.jpg" alt="Bike"></div>
+  <div class="ep-info">
+    <div class="ep-en">Bike</div>
+    <div class="ep-zh">自行车</div>
+    <div class="ep-ep">第 5 集</div>
+  </div>
+</a>
+
+  </div>
+</main>
+
+<script>
+function toggle(k){
+  document.body.classList.toggle('hide-'+k);
+  document.getElementById(k==='images'?'btnImg':'btnCn').classList.toggle('active');
+}
+</script>
+
+</body>
+</html>
