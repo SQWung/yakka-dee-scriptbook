@@ -1,0 +1,632 @@
+[
+  {
+    "text": "Dee? Where are you? I've seen her!",
+    "from": "0:02",
+    "to": "0:04",
+    "cn": "迪伊？你在哪儿？我看见她了！"
+  },
+  {
+    "text": "Over there!",
+    "from": "0:04",
+    "to": "0:06",
+    "cn": "在那边！"
+  },
+  {
+    "text": "Dee!",
+    "from": "0:06",
+    "to": "0:07",
+    "cn": "迪伊！"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee, Yakka Dee, Yakka Dee",
+    "from": "0:08",
+    "to": "0:12",
+    "cn": "【歌曲】雅卡迪，雅卡迪，雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# My name is Dee, I like to talk",
+    "from": "0:12",
+    "to": "0:14",
+    "cn": "【歌曲】我叫迪伊，我喜欢说话"
+  },
+  {
+    "text": "- # They call me Yakka Dee\n- # Dee!",
+    "from": "0:14",
+    "to": "0:16",
+    "cn": "- # 他们叫我 雅卡 迪伊\n-#迪伊！"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "0:16",
+    "to": "0:18",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "- # Will you Yakka Yak with me?\n- # Me!",
+    "from": "0:18",
+    "to": "0:20",
+    "cn": "- # 你愿意和我一起 雅卡 Yak 吗？\n- ＃ 我！"
+  },
+  {
+    "text": "# Bus, mouse, apple, house",
+    "from": "0:20",
+    "to": "0:24",
+    "cn": "【歌曲】巴士、老鼠、苹果、房子"
+  },
+  {
+    "text": "- # Yakka Yak\n- # Yakka Dee",
+    "from": "0:24",
+    "to": "0:26",
+    "cn": "- # 雅卡牦牛\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # I know you can\n- # Yakka Dee",
+    "from": "0:26",
+    "to": "0:28",
+    "cn": "- # 我知道你可以\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # You'll get filled up\n- # Yakka Dee",
+    "from": "0:28",
+    "to": "0:30",
+    "cn": "- # 你会被填满\n- # 雅卡迪伊"
+  },
+  {
+    "text": "# With whizz, pop, bang",
+    "from": "0:30",
+    "to": "0:32",
+    "cn": "【歌曲】伴随着嗞、啵、嘭"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee",
+    "from": "0:32",
+    "to": "0:34",
+    "cn": "【歌曲】雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "0:34",
+    "to": "0:37",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "What will the yakka be today?",
+    "from": "0:38",
+    "to": "0:41",
+    "cn": "今天的yakka 会是什么？"
+  },
+  {
+    "text": "Bike, car, boat, bus?",
+    "from": "0:41",
+    "to": "0:46",
+    "cn": "自行车、汽车、船、巴士？"
+  },
+  {
+    "text": "DRUM ROLL",
+    "from": "0:46",
+    "to": "0:49",
+    "cn": "【鼓声】"
+  },
+  {
+    "text": "- Car! ALL:\n- Hurray!",
+    "from": "0:52",
+    "to": "0:55",
+    "cn": "- 车！全部：\n- 万岁！"
+  },
+  {
+    "text": "Car, you say car!",
+    "from": "0:56",
+    "to": "0:58",
+    "cn": "车，你说车！"
+  },
+  {
+    "text": "Car.",
+    "from": "1:00",
+    "to": "1:02",
+    "cn": "车。"
+  },
+  {
+    "text": "Car.",
+    "from": "1:02",
+    "to": "1:03",
+    "cn": "车。"
+  },
+  {
+    "text": "Car.",
+    "from": "1:03",
+    "to": "1:05",
+    "cn": "车。"
+  },
+  {
+    "text": "You say car.",
+    "from": "1:05",
+    "to": "1:07",
+    "cn": "你说汽车。"
+  },
+  {
+    "text": "I'll help you. Let's go.",
+    "from": "1:09",
+    "to": "1:12",
+    "cn": "我来帮你。我们走吧。"
+  },
+  {
+    "text": "Car! Big car!",
+    "from": "1:13",
+    "to": "1:16",
+    "cn": "车！大车！"
+  },
+  {
+    "text": "Little car.",
+    "from": "1:19",
+    "to": "1:22",
+    "cn": "小车。"
+  },
+  {
+    "text": "Red car.",
+    "from": "1:22",
+    "to": "1:24",
+    "cn": "红色汽车。"
+  },
+  {
+    "text": "Car! Vroom, vroom!",
+    "from": "1:25",
+    "to": "1:28",
+    "cn": "车！呜呜呜！"
+  },
+  {
+    "text": "Eurgh! Dirty car.",
+    "from": "1:30",
+    "to": "1:33",
+    "cn": "呃！脏车。"
+  },
+  {
+    "text": "Clean car!",
+    "from": "1:35",
+    "to": "1:37",
+    "cn": "干净的车！"
+  },
+  {
+    "text": "Ha-ha-ha-ha!",
+    "from": "1:37",
+    "to": "1:38",
+    "cn": "哈哈哈哈！"
+  },
+  {
+    "text": "Long car.",
+    "from": "1:41",
+    "to": "1:45",
+    "cn": "长车。"
+  },
+  {
+    "text": "- BOTH:\n- Car!",
+    "from": "1:45",
+    "to": "1:47",
+    "cn": "- 两者：\n- 车！"
+  },
+  {
+    "text": "Go! Stop!",
+    "from": "1:47",
+    "to": "1:50",
+    "cn": "去！停止！"
+  },
+  {
+    "text": "Go! Yay!",
+    "from": "1:50",
+    "to": "1:52",
+    "cn": "去！耶！"
+  },
+  {
+    "text": "Ha-ha-ha-ha!",
+    "from": "1:52",
+    "to": "1:54",
+    "cn": "哈哈哈哈！"
+  },
+  {
+    "text": "Racing car!",
+    "from": "1:54",
+    "to": "1:56",
+    "cn": "赛车！"
+  },
+  {
+    "text": "Nee-naw-nee-naw-nee-naw!",
+    "from": "1:58",
+    "to": "2:00",
+    "cn": "尼-诺-尼-诺-尼-诺！"
+  },
+  {
+    "text": "Police car.",
+    "from": "2:00",
+    "to": "2:03",
+    "cn": "警车。"
+  },
+  {
+    "text": "Going very far car.",
+    "from": "2:04",
+    "to": "2:07",
+    "cn": "开很远的车。"
+  },
+  {
+    "text": "- BOTH:\n- Car!",
+    "from": "2:09",
+    "to": "2:11",
+    "cn": "- 两者：\n- 车！"
+  },
+  {
+    "text": "- Yay! BOTH:\n- Bumpy car!",
+    "from": "2:12",
+    "to": "2:14",
+    "cn": "- 耶！两者：\n- 颠簸的车！"
+  },
+  {
+    "text": "Ha-ha-ha-ha!",
+    "from": "2:15",
+    "to": "2:18",
+    "cn": "哈哈哈哈！"
+  },
+  {
+    "text": "Grumpy car!",
+    "from": "2:18",
+    "to": "2:21",
+    "cn": "脾气暴躁的车！"
+  },
+  {
+    "text": "Hm.",
+    "from": "2:21",
+    "to": "2:22",
+    "cn": "嗯。"
+  },
+  {
+    "text": "Wow! Rocket to the stars car!",
+    "from": "2:23",
+    "to": "2:28",
+    "cn": "哇！火箭冲向星空汽车！"
+  },
+  {
+    "text": "Car.",
+    "from": "2:28",
+    "to": "2:30",
+    "cn": "车。"
+  },
+  {
+    "text": "Car!",
+    "from": "2:30",
+    "to": "2:32",
+    "cn": "车！"
+  },
+  {
+    "text": "- ALL:\n- Hurray!",
+    "from": "2:32",
+    "to": "2:33",
+    "cn": "- 全部：\n- 万岁！"
+  },
+  {
+    "text": "Car!",
+    "from": "2:34",
+    "to": "2:35",
+    "cn": "车！"
+  },
+  {
+    "text": "You say car!",
+    "from": "2:35",
+    "to": "2:38",
+    "cn": "你说车！"
+  },
+  {
+    "text": "Car.",
+    "from": "2:38",
+    "to": "2:39",
+    "cn": "车。"
+  },
+  {
+    "text": "Car.",
+    "from": "2:39",
+    "to": "2:41",
+    "cn": "车。"
+  },
+  {
+    "text": "Car.",
+    "from": "2:41",
+    "to": "2:42",
+    "cn": "车。"
+  },
+  {
+    "text": "Car!",
+    "from": "2:43",
+    "to": "2:45",
+    "cn": "车！"
+  },
+  {
+    "text": "Yakka yak! I know you can.",
+    "from": "2:45",
+    "to": "2:48",
+    "cn": "雅卡牦牛！我知道你可以。"
+  },
+  {
+    "text": "It will fill you up with whiz, pop, bang!",
+    "from": "2:48",
+    "to": "2:52",
+    "cn": "它会让你充满嗖嗖、流行、爆炸的感觉！"
+  },
+  {
+    "text": "Car! You say car!",
+    "from": "2:52",
+    "to": "2:54",
+    "cn": "车！你说车！"
+  },
+  {
+    "text": "More car! Let's go again!",
+    "from": "2:56",
+    "to": "3:01",
+    "cn": "更多汽车！我们再去吧！"
+  },
+  {
+    "text": "Car!",
+    "from": "3:01",
+    "to": "3:02",
+    "cn": "车！"
+  },
+  {
+    "text": "Big car.",
+    "from": "3:02",
+    "to": "3:05",
+    "cn": "大车。"
+  },
+  {
+    "text": "Little car!",
+    "from": "3:07",
+    "to": "3:08",
+    "cn": "小车啊！"
+  },
+  {
+    "text": "Red car.",
+    "from": "3:10",
+    "to": "3:11",
+    "cn": "红色汽车。"
+  },
+  {
+    "text": "Car. Vroom, vroom!",
+    "from": "3:13",
+    "to": "3:15",
+    "cn": "车。呜呜呜！"
+  },
+  {
+    "text": "Eurgh! Dirty car!",
+    "from": "3:18",
+    "to": "3:20",
+    "cn": "呃！脏车！"
+  },
+  {
+    "text": "Clean car!",
+    "from": "3:23",
+    "to": "3:24",
+    "cn": "干净的车！"
+  },
+  {
+    "text": "Ha-ha-ha-ha!",
+    "from": "3:25",
+    "to": "3:27",
+    "cn": "哈哈哈哈！"
+  },
+  {
+    "text": "Long, long, long, long, long car.",
+    "from": "3:29",
+    "to": "3:31",
+    "cn": "车子长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长。"
+  },
+  {
+    "text": "- BOTH:\n- Car!",
+    "from": "3:33",
+    "to": "3:35",
+    "cn": "- 两者：\n- 车！"
+  },
+  {
+    "text": "Go! Stop!",
+    "from": "3:35",
+    "to": "3:37",
+    "cn": "去！停止！"
+  },
+  {
+    "text": "Go! Yay!",
+    "from": "3:38",
+    "to": "3:40",
+    "cn": "去！耶！"
+  },
+  {
+    "text": "Ha-ha-ha-ha!",
+    "from": "3:40",
+    "to": "3:42",
+    "cn": "哈哈哈哈！"
+  },
+  {
+    "text": "Racing car!",
+    "from": "3:42",
+    "to": "3:44",
+    "cn": "赛车！"
+  },
+  {
+    "text": "Nee-naw-nee-naw-nee-naw!",
+    "from": "3:46",
+    "to": "3:48",
+    "cn": "尼-诺-尼-诺-尼-诺！"
+  },
+  {
+    "text": "Police car!",
+    "from": "3:48",
+    "to": "3:50",
+    "cn": "警车！"
+  },
+  {
+    "text": "Going very far car!",
+    "from": "3:51",
+    "to": "3:55",
+    "cn": "开车去很远！"
+  },
+  {
+    "text": "BEEP BEEP!",
+    "from": "3:55",
+    "to": "3:56",
+    "cn": "嘟嘟！"
+  },
+  {
+    "text": "HENS CLUCK",
+    "from": "3:56",
+    "to": "3:57",
+    "cn": "【HENS CLUCK】"
+  },
+  {
+    "text": "- BOTH:\n- Car!",
+    "from": "3:58",
+    "to": "4:01",
+    "cn": "- 两者：\n- 车！"
+  },
+  {
+    "text": "Yay!",
+    "from": "4:01",
+    "to": "4:03",
+    "cn": "耶！"
+  },
+  {
+    "text": "- BOTH:\n- Bumpy car!",
+    "from": "4:03",
+    "to": "4:04",
+    "cn": "- 两者：\n- 颠簸的车！"
+  },
+  {
+    "text": "Ha-ha-ha-ha!",
+    "from": "4:04",
+    "to": "4:06",
+    "cn": "哈哈哈哈！"
+  },
+  {
+    "text": "Grumpy car!",
+    "from": "4:07",
+    "to": "4:09",
+    "cn": "脾气暴躁的车！"
+  },
+  {
+    "text": "Hm!",
+    "from": "4:09",
+    "to": "4:12",
+    "cn": "嗯！"
+  },
+  {
+    "text": "Wow! Rocket to the stars car!",
+    "from": "4:14",
+    "to": "4:18",
+    "cn": "哇！火箭冲向星空汽车！"
+  },
+  {
+    "text": "- Car!\n- BEEP! BEEP!",
+    "from": "4:19",
+    "to": "4:21",
+    "cn": "- 车！\n- 哔！嘟！"
+  },
+  {
+    "text": "Car!",
+    "from": "4:21",
+    "to": "4:22",
+    "cn": "车！"
+  },
+  {
+    "text": "Yakka yak! I know you can.",
+    "from": "4:22",
+    "to": "4:24",
+    "cn": "雅卡牦牛！我知道你可以。"
+  },
+  {
+    "text": "It will fill you up with whiz, pop, bang!",
+    "from": "4:24",
+    "to": "4:28",
+    "cn": "它会让你充满嗖嗖、流行、爆炸的感觉！"
+  },
+  {
+    "text": "You say car!",
+    "from": "4:28",
+    "to": "4:31",
+    "cn": "你说车！"
+  },
+  {
+    "text": "Car!",
+    "from": "4:31",
+    "to": "4:32",
+    "cn": "车！"
+  },
+  {
+    "text": "Yay! Yakka Dee!",
+    "from": "4:32",
+    "to": "4:36",
+    "cn": "耶！雅卡迪！"
+  },
+  {
+    "text": "You did it! Yay!",
+    "from": "4:36",
+    "to": "4:38",
+    "cn": "你做到了！耶！"
+  },
+  {
+    "text": "Car.",
+    "from": "4:38",
+    "to": "4:39",
+    "cn": "车。"
+  },
+  {
+    "text": "Car.",
+    "from": "4:39",
+    "to": "4:40",
+    "cn": "车。"
+  },
+  {
+    "text": "Car.",
+    "from": "4:40",
+    "to": "4:41",
+    "cn": "车。"
+  },
+  {
+    "text": "Car.",
+    "from": "4:41",
+    "to": "4:43",
+    "cn": "车。"
+  },
+  {
+    "text": "# Hooray, yippee, we love to talk",
+    "from": "4:43",
+    "to": "4:45",
+    "cn": "【歌曲】万岁，yippee，我们喜欢说话"
+  },
+  {
+    "text": "- # Yakka Yak with me\n- # Me",
+    "from": "4:45",
+    "to": "4:47",
+    "cn": "- # 雅卡 Yak 和我在一起\n- #我"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "4:47",
+    "to": "4:49",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "# It's fun to Yakka Dee",
+    "from": "4:49",
+    "to": "4:51",
+    "cn": "【歌曲】雅卡 迪伊 很有趣"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee, Yakka Dee, Yakka Dee",
+    "from": "4:51",
+    "to": "4:55",
+    "cn": "【歌曲】雅卡迪，雅卡迪，雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "4:55",
+    "to": "4:58",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "Goodbye!",
+    "from": "4:58",
+    "to": "5:00",
+    "cn": "再见！"
+  }
+]

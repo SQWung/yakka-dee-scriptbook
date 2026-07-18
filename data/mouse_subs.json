@@ -1,0 +1,650 @@
+[
+  {
+    "text": "Dee, where are you? I've seen her over there!",
+    "from": "0:02",
+    "to": "0:05",
+    "cn": "迪伊，你在哪里？我在那边见过她！"
+  },
+  {
+    "text": "Dee!",
+    "from": "0:05",
+    "to": "0:08",
+    "cn": "迪伊！"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee, Yakka Dee",
+    "from": "0:08",
+    "to": "0:11",
+    "cn": "【歌曲】雅卡迪，雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Yakka Dee",
+    "from": "0:11",
+    "to": "0:12",
+    "cn": "【歌曲】雅卡迪伊"
+  },
+  {
+    "text": "# My name is Dee, I like to talk.",
+    "from": "0:12",
+    "to": "0:14",
+    "cn": "【歌曲】我叫迪伊，我喜欢说话。"
+  },
+  {
+    "text": "- # They call me Yakka Dee\n- # Dee!",
+    "from": "0:14",
+    "to": "0:16",
+    "cn": "- # 他们叫我 雅卡 迪伊\n-#迪伊！"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "0:16",
+    "to": "0:18",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "- # Will you yakky yak with me?\n- # Me!",
+    "from": "0:18",
+    "to": "0:20",
+    "cn": "- # 你愿意和我一起 yakky yak 吗？\n- ＃ 我！"
+  },
+  {
+    "text": "- # Bus\n- # Bus\n- # Mouse\n- # Mouse",
+    "from": "0:20",
+    "to": "0:22",
+    "cn": "- # 巴士\n- # 巴士\n- # 鼠标\n- # 鼠标"
+  },
+  {
+    "text": "- # Apple\n- # Apple\n- # House\n- # House",
+    "from": "0:22",
+    "to": "0:24",
+    "cn": "- # 苹果\n- # 苹果\n- # 房子\n- # 房子"
+  },
+  {
+    "text": "- # Yakky yak\n- # Yakka Dee",
+    "from": "0:24",
+    "to": "0:26",
+    "cn": "- # 牦牛牦牛\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # I know you can\n- # Yakka Dee",
+    "from": "0:26",
+    "to": "0:28",
+    "cn": "- # 我知道你可以\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # You'll get filled up\n- # Yakka Dee",
+    "from": "0:28",
+    "to": "0:30",
+    "cn": "- # 你会被填满\n- # 雅卡迪伊"
+  },
+  {
+    "text": "# With whizz, pop, bang!",
+    "from": "0:30",
+    "to": "0:32",
+    "cn": "【歌曲】伴随着嗞、啵、嘭"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee",
+    "from": "0:32",
+    "to": "0:34",
+    "cn": "【歌曲】雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "0:34",
+    "to": "0:37",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "What will our yakka be today?",
+    "from": "0:38",
+    "to": "0:41",
+    "cn": "今天我们学什么词呢？"
+  },
+  {
+    "text": "Dog.",
+    "from": "0:41",
+    "to": "0:42",
+    "cn": "狗。"
+  },
+  {
+    "text": "Duck.",
+    "from": "0:42",
+    "to": "0:44",
+    "cn": "鸭子。"
+  },
+  {
+    "text": "Lion.",
+    "from": "0:44",
+    "to": "0:45",
+    "cn": "狮子。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "0:45",
+    "to": "0:46",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "DRUM ROLL",
+    "from": "0:46",
+    "to": "0:49",
+    "cn": "【鼓声】"
+  },
+  {
+    "text": "Mouse!",
+    "from": "0:52",
+    "to": "0:54",
+    "cn": "老鼠！"
+  },
+  {
+    "text": "Hooray!",
+    "from": "0:54",
+    "to": "0:56",
+    "cn": "万岁！"
+  },
+  {
+    "text": "Mouse.",
+    "from": "0:56",
+    "to": "0:57",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "You say mouse.",
+    "from": "0:57",
+    "to": "1:00",
+    "cn": "你说鼠标。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "1:00",
+    "to": "1:01",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "1:01",
+    "to": "1:03",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Mouse. Squeak-squeak-squeak!",
+    "from": "1:03",
+    "to": "1:05",
+    "cn": "老鼠。吱吱吱吱！"
+  },
+  {
+    "text": "You say mouse.",
+    "from": "1:05",
+    "to": "1:08",
+    "cn": "你说鼠标。"
+  },
+  {
+    "text": "SHE GIGGLES",
+    "from": "1:08",
+    "to": "1:10",
+    "cn": "【SHE GIGGLES】"
+  },
+  {
+    "text": "I'll help you. Let's go.",
+    "from": "1:10",
+    "to": "1:12",
+    "cn": "我来帮你。我们走吧。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "1:14",
+    "to": "1:16",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Little mouse.",
+    "from": "1:16",
+    "to": "1:19",
+    "cn": "小老鼠。"
+  },
+  {
+    "text": "Furry mouse.",
+    "from": "1:20",
+    "to": "1:22",
+    "cn": "毛茸茸的老鼠。"
+  },
+  {
+    "text": "Ah!",
+    "from": "1:22",
+    "to": "1:24",
+    "cn": "啊！"
+  },
+  {
+    "text": "Whiskery mouse.",
+    "from": "1:25",
+    "to": "1:27",
+    "cn": "威士忌老鼠。"
+  },
+  {
+    "text": "Mouse!",
+    "from": "1:30",
+    "to": "1:32",
+    "cn": "老鼠！"
+  },
+  {
+    "text": "Brown mouse.",
+    "from": "1:32",
+    "to": "1:34",
+    "cn": "棕色的老鼠。"
+  },
+  {
+    "text": "White mouse.",
+    "from": "1:34",
+    "to": "1:36",
+    "cn": "白老鼠。"
+  },
+  {
+    "text": "GIGGLES",
+    "from": "1:37",
+    "to": "1:40",
+    "cn": "【GIGGLES】"
+  },
+  {
+    "text": "House mouse.",
+    "from": "1:41",
+    "to": "1:43",
+    "cn": "家鼠。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "1:45",
+    "to": "1:48",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Sleepy mouse. Ssh!",
+    "from": "1:50",
+    "to": "1:53",
+    "cn": "困了的老鼠。嘘！"
+  },
+  {
+    "text": "Squeaky mouse.",
+    "from": "1:53",
+    "to": "1:56",
+    "cn": "吱吱作响的老鼠。"
+  },
+  {
+    "text": "Cheeky mouse.",
+    "from": "2:01",
+    "to": "2:02",
+    "cn": "厚脸皮的老鼠。"
+  },
+  {
+    "text": "SHE GIGGLES",
+    "from": "2:02",
+    "to": "2:04",
+    "cn": "【SHE GIGGLES】"
+  },
+  {
+    "text": "Mouse.",
+    "from": "2:04",
+    "to": "2:06",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Noodle mouse.",
+    "from": "2:08",
+    "to": "2:11",
+    "cn": "面条老鼠."
+  },
+  {
+    "text": "Ice cream mouse.",
+    "from": "2:13",
+    "to": "2:16",
+    "cn": "冰淇淋老鼠。"
+  },
+  {
+    "text": "Wow!",
+    "from": "2:17",
+    "to": "2:19",
+    "cn": "哇！"
+  },
+  {
+    "text": "Magic mouse.",
+    "from": "2:19",
+    "to": "2:22",
+    "cn": "魔术鼠标。"
+  },
+  {
+    "text": "I'm a mouse. Squeak-squeak!",
+    "from": "2:22",
+    "to": "2:25",
+    "cn": "我是一只老鼠。吱吱吱！"
+  },
+  {
+    "text": "Mouse.",
+    "from": "2:27",
+    "to": "2:29",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Hooray!",
+    "from": "2:29",
+    "to": "2:31",
+    "cn": "万岁！"
+  },
+  {
+    "text": "Mouse.",
+    "from": "2:31",
+    "to": "2:33",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "You say mouse.",
+    "from": "2:33",
+    "to": "2:35",
+    "cn": "你说鼠标。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "2:35",
+    "to": "2:36",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "2:36",
+    "to": "2:38",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Mouse. Squeak-squeak.",
+    "from": "2:38",
+    "to": "2:41",
+    "cn": "老鼠。吱吱声。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "2:41",
+    "to": "2:43",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Yakky yak. I know you can.",
+    "from": "2:43",
+    "to": "2:45",
+    "cn": "牦牛牦牛。我知道你可以。"
+  },
+  {
+    "text": "It will fill you up with whizz, pop, bang!",
+    "from": "2:45",
+    "to": "2:50",
+    "cn": "它会让你吃饱，嗞、啵、嘭！"
+  },
+  {
+    "text": "Mouse. You say mouse.",
+    "from": "2:50",
+    "to": "2:53",
+    "cn": "老鼠。你说鼠标。"
+  },
+  {
+    "text": "More mouse.",
+    "from": "2:53",
+    "to": "2:55",
+    "cn": "更多鼠标。"
+  },
+  {
+    "text": "Let's go again.",
+    "from": "2:55",
+    "to": "2:57",
+    "cn": "我们再试一次。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "2:59",
+    "to": "3:01",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Little mouse.",
+    "from": "3:01",
+    "to": "3:04",
+    "cn": "小老鼠。"
+  },
+  {
+    "text": "Furry mouse. Ah.",
+    "from": "3:05",
+    "to": "3:10",
+    "cn": "毛茸茸的老鼠。啊。"
+  },
+  {
+    "text": "Whiskery mouse.",
+    "from": "3:10",
+    "to": "3:12",
+    "cn": "威士忌老鼠。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "3:14",
+    "to": "3:17",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Ooh!",
+    "from": "3:18",
+    "to": "3:20",
+    "cn": "哦！"
+  },
+  {
+    "text": "SHE GIGGLES",
+    "from": "3:20",
+    "to": "3:22",
+    "cn": "【SHE GIGGLES】"
+  },
+  {
+    "text": "Brown mouse.",
+    "from": "3:22",
+    "to": "3:24",
+    "cn": "棕色的老鼠。"
+  },
+  {
+    "text": "White mouse.",
+    "from": "3:24",
+    "to": "3:26",
+    "cn": "白老鼠。"
+  },
+  {
+    "text": "SHE GIGGLES",
+    "from": "3:26",
+    "to": "3:29",
+    "cn": "【SHE GIGGLES】"
+  },
+  {
+    "text": "House mouse.",
+    "from": "3:31",
+    "to": "3:33",
+    "cn": "家鼠。"
+  },
+  {
+    "text": "Hello!",
+    "from": "3:33",
+    "to": "3:35",
+    "cn": "你好！"
+  },
+  {
+    "text": "Mouse.",
+    "from": "3:36",
+    "to": "3:39",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Sleepy mouse. Ssh!",
+    "from": "3:40",
+    "to": "3:44",
+    "cn": "困了的老鼠。嘘！"
+  },
+  {
+    "text": "Squeaky mouse.",
+    "from": "3:44",
+    "to": "3:47",
+    "cn": "吱吱作响的老鼠。"
+  },
+  {
+    "text": "Very cheeky mouse.",
+    "from": "3:52",
+    "to": "3:55",
+    "cn": "非常厚脸皮的老鼠。"
+  },
+  {
+    "text": "Peepo!",
+    "from": "3:55",
+    "to": "3:56",
+    "cn": "皮波！"
+  },
+  {
+    "text": "SHE GIGGLES",
+    "from": "3:56",
+    "to": "3:57",
+    "cn": "【SHE GIGGLES】"
+  },
+  {
+    "text": "Mouse.",
+    "from": "3:57",
+    "to": "3:59",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Noodle mouse.",
+    "from": "4:01",
+    "to": "4:03",
+    "cn": "面条老鼠."
+  },
+  {
+    "text": "Ice cream mouse.",
+    "from": "4:06",
+    "to": "4:08",
+    "cn": "冰淇淋老鼠。"
+  },
+  {
+    "text": "Wow!",
+    "from": "4:10",
+    "to": "4:12",
+    "cn": "哇！"
+  },
+  {
+    "text": "Magic mouse.",
+    "from": "4:12",
+    "to": "4:14",
+    "cn": "魔术鼠标。"
+  },
+  {
+    "text": "Ta-dah!",
+    "from": "4:14",
+    "to": "4:16",
+    "cn": "哒哒！"
+  },
+  {
+    "text": "I'm a mouse. Squeak-squeak!",
+    "from": "4:16",
+    "to": "4:19",
+    "cn": "我是一只老鼠。吱吱吱！"
+  },
+  {
+    "text": "Mouse.",
+    "from": "4:21",
+    "to": "4:23",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "Yakky yak, I know you can. It will fill you up with whizz, pop, bang!",
+    "from": "4:23",
+    "to": "4:29",
+    "cn": "Yakky yak，我知道你可以。它会让你充满嗖嗖、流行、爆炸的感觉！"
+  },
+  {
+    "text": "You say mouse.",
+    "from": "4:29",
+    "to": "4:31",
+    "cn": "你说鼠标。"
+  },
+  {
+    "text": "- Mouse.\n- Yeah!",
+    "from": "4:31",
+    "to": "4:34",
+    "cn": "- 老鼠。\n- 是的！"
+  },
+  {
+    "text": "Yakka Dee!",
+    "from": "4:34",
+    "to": "4:36",
+    "cn": "雅卡迪！"
+  },
+  {
+    "text": "You did it! Yeah!",
+    "from": "4:36",
+    "to": "4:38",
+    "cn": "你做到了！是的！"
+  },
+  {
+    "text": "- Mouse.\n- Mouse.\n- Mouse.",
+    "from": "4:38",
+    "to": "4:40",
+    "cn": "- 老鼠。\n- 老鼠。\n- 老鼠。"
+  },
+  {
+    "text": "Mouse.",
+    "from": "4:40",
+    "to": "4:43",
+    "cn": "老鼠。"
+  },
+  {
+    "text": "# Hooray, yippee, we love to talk",
+    "from": "4:43",
+    "to": "4:45",
+    "cn": "【歌曲】万岁，yippee，我们喜欢说话"
+  },
+  {
+    "text": "- # Yakky yak with me\n- Me",
+    "from": "4:45",
+    "to": "4:47",
+    "cn": "- # Yakky yak 和我在一起\n- 我"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "4:47",
+    "to": "4:49",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "# It's fun to yakka dee",
+    "from": "4:49",
+    "to": "4:51",
+    "cn": "【歌曲】yakka dee 很有趣"
+  },
+  {
+    "text": "# Yakka Dee",
+    "from": "4:51",
+    "to": "4:52",
+    "cn": "【歌曲】雅卡迪伊"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee",
+    "from": "4:52",
+    "to": "4:54",
+    "cn": "【歌曲】雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Yakka Dee",
+    "from": "4:54",
+    "to": "4:55",
+    "cn": "【歌曲】雅卡迪伊"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "4:55",
+    "to": "4:59",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "Goodbye!",
+    "from": "4:59",
+    "to": "5:01",
+    "cn": "再见！"
+  }
+]

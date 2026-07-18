@@ -1,0 +1,608 @@
+[
+  {
+    "text": "Dee? Where are you? I've seen her!",
+    "from": "0:02",
+    "to": "0:04",
+    "cn": "迪伊？你在哪儿？我看见她了！"
+  },
+  {
+    "text": "Over there!",
+    "from": "0:04",
+    "to": "0:06",
+    "cn": "在那边！"
+  },
+  {
+    "text": "Dee!",
+    "from": "0:06",
+    "to": "0:07",
+    "cn": "迪伊！"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee, Yakka Dee, Yakka Dee",
+    "from": "0:08",
+    "to": "0:12",
+    "cn": "【歌曲】雅卡迪，雅卡迪，雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# My name is Dee, I like to talk",
+    "from": "0:12",
+    "to": "0:14",
+    "cn": "【歌曲】我叫迪伊，我喜欢说话"
+  },
+  {
+    "text": "- # They call me Yakka Dee\n- # Dee!",
+    "from": "0:14",
+    "to": "0:16",
+    "cn": "- # 他们叫我 雅卡 迪伊\n-#迪伊！"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "0:16",
+    "to": "0:18",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "- # Will you Yakka Yak with me?\n- # Me!",
+    "from": "0:18",
+    "to": "0:20",
+    "cn": "- # 你愿意和我一起 雅卡 Yak 吗？\n- ＃ 我！"
+  },
+  {
+    "text": "# Bus, mouse, apple, house",
+    "from": "0:20",
+    "to": "0:24",
+    "cn": "【歌曲】巴士、老鼠、苹果、房子"
+  },
+  {
+    "text": "- # Yakka Yak\n- # Yakka Dee",
+    "from": "0:24",
+    "to": "0:26",
+    "cn": "- # 雅卡牦牛\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # I know you can\n- # Yakka Dee",
+    "from": "0:26",
+    "to": "0:28",
+    "cn": "- # 我知道你可以\n- # 雅卡迪伊"
+  },
+  {
+    "text": "- # You'll get filled up\n- # Yakka Dee",
+    "from": "0:28",
+    "to": "0:30",
+    "cn": "- # 你会被填满\n- # 雅卡迪伊"
+  },
+  {
+    "text": "# With whizz, pop, bang",
+    "from": "0:30",
+    "to": "0:32",
+    "cn": "【歌曲】伴随着嗞、啵、嘭"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee",
+    "from": "0:32",
+    "to": "0:34",
+    "cn": "【歌曲】雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "0:34",
+    "to": "0:38",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "What will our Yakka be today?",
+    "from": "0:38",
+    "to": "0:41",
+    "cn": "今天我们学什么词呢？"
+  },
+  {
+    "text": "Worm,",
+    "from": "0:41",
+    "to": "0:42",
+    "cn": "虫子、"
+  },
+  {
+    "text": "ball,",
+    "from": "0:42",
+    "to": "0:43",
+    "cn": "球、"
+  },
+  {
+    "text": "hat,",
+    "from": "0:43",
+    "to": "0:45",
+    "cn": "帽子、"
+  },
+  {
+    "text": "boots.",
+    "from": "0:45",
+    "to": "0:46",
+    "cn": "靴子。"
+  },
+  {
+    "text": "DRUM ROLL",
+    "from": "0:46",
+    "to": "0:50",
+    "cn": "【鼓声】"
+  },
+  {
+    "text": "CYMBAL CRASH",
+    "from": "0:50",
+    "to": "0:52",
+    "cn": "【镲声】"
+  },
+  {
+    "text": "Ball!",
+    "from": "0:52",
+    "to": "0:54",
+    "cn": "球！"
+  },
+  {
+    "text": "- ALL:\n- Hooray!",
+    "from": "0:54",
+    "to": "0:55",
+    "cn": "- 全部：\n- 万岁！"
+  },
+  {
+    "text": "Ball.",
+    "from": "0:56",
+    "to": "0:58",
+    "cn": "球。"
+  },
+  {
+    "text": "You say ball.",
+    "from": "0:58",
+    "to": "1:00",
+    "cn": "你说球。"
+  },
+  {
+    "text": "Ball!",
+    "from": "1:00",
+    "to": "1:01",
+    "cn": "球！"
+  },
+  {
+    "text": "Ball!",
+    "from": "1:01",
+    "to": "1:03",
+    "cn": "球！"
+  },
+  {
+    "text": "Ball!",
+    "from": "1:03",
+    "to": "1:04",
+    "cn": "球！"
+  },
+  {
+    "text": "You say ball!",
+    "from": "1:06",
+    "to": "1:07",
+    "cn": "你说球！"
+  },
+  {
+    "text": "I'll help you. Let's go!",
+    "from": "1:10",
+    "to": "1:12",
+    "cn": "我来帮你。我们走吧！"
+  },
+  {
+    "text": "Ball!",
+    "from": "1:14",
+    "to": "1:16",
+    "cn": "球！"
+  },
+  {
+    "text": "Green ball!",
+    "from": "1:16",
+    "to": "1:17",
+    "cn": "绿球！"
+  },
+  {
+    "text": "Blue ball.",
+    "from": "1:19",
+    "to": "1:20",
+    "cn": "蓝色球。"
+  },
+  {
+    "text": "Moo ball!",
+    "from": "1:23",
+    "to": "1:24",
+    "cn": "哞球！"
+  },
+  {
+    "text": "Moo!",
+    "from": "1:24",
+    "to": "1:26",
+    "cn": "哞！"
+  },
+  {
+    "text": "Boo! Balls!",
+    "from": "1:28",
+    "to": "1:30",
+    "cn": "嘘！球！"
+  },
+  {
+    "text": "Seat ball.",
+    "from": "1:32",
+    "to": "1:34",
+    "cn": "座球。"
+  },
+  {
+    "text": "Meatball.",
+    "from": "1:38",
+    "to": "1:40",
+    "cn": "肉丸。"
+  },
+  {
+    "text": "Mmm!",
+    "from": "1:40",
+    "to": "1:41",
+    "cn": "嗯！"
+  },
+  {
+    "text": "Bouncy ball.",
+    "from": "1:42",
+    "to": "1:44",
+    "cn": "弹力球。"
+  },
+  {
+    "text": "Ball! Whoa, whoa, whoa!",
+    "from": "1:47",
+    "to": "1:50",
+    "cn": "球！哇哇哇！"
+  },
+  {
+    "text": "Funny ball!",
+    "from": "1:51",
+    "to": "1:53",
+    "cn": "有趣的球！"
+  },
+  {
+    "text": "Sunny ball.",
+    "from": "1:57",
+    "to": "1:59",
+    "cn": "阳光球。"
+  },
+  {
+    "text": "Kick it ball.",
+    "from": "2:01",
+    "to": "2:02",
+    "cn": "踢球吧"
+  },
+  {
+    "text": "Ball!",
+    "from": "2:05",
+    "to": "2:06",
+    "cn": "球！"
+  },
+  {
+    "text": "Disco ball!",
+    "from": "2:09",
+    "to": "2:11",
+    "cn": "迪斯科舞会！"
+  },
+  {
+    "text": "# Superball! #",
+    "from": "2:17",
+    "to": "2:20",
+    "cn": "【歌曲】超级球！ #"
+  },
+  {
+    "text": "Sparkly ball.",
+    "from": "2:20",
+    "to": "2:22",
+    "cn": "闪闪发光的球。"
+  },
+  {
+    "text": "Ah!",
+    "from": "2:22",
+    "to": "2:23",
+    "cn": "啊！"
+  },
+  {
+    "text": "I am a ball!",
+    "from": "2:24",
+    "to": "2:26",
+    "cn": "我是一个球！"
+  },
+  {
+    "text": "Ball!",
+    "from": "2:29",
+    "to": "2:30",
+    "cn": "球！"
+  },
+  {
+    "text": "- ALL:\n- Hooray!",
+    "from": "2:30",
+    "to": "2:32",
+    "cn": "- 全部：\n- 万岁！"
+  },
+  {
+    "text": "Ball!",
+    "from": "2:33",
+    "to": "2:35",
+    "cn": "球！"
+  },
+  {
+    "text": "You say ball!",
+    "from": "2:35",
+    "to": "2:36",
+    "cn": "你说球！"
+  },
+  {
+    "text": "Ball.",
+    "from": "2:37",
+    "to": "2:39",
+    "cn": "球。"
+  },
+  {
+    "text": "Ball.",
+    "from": "2:39",
+    "to": "2:41",
+    "cn": "球。"
+  },
+  {
+    "text": "Ball.",
+    "from": "2:41",
+    "to": "2:42",
+    "cn": "球。"
+  },
+  {
+    "text": "Ball!",
+    "from": "2:43",
+    "to": "2:44",
+    "cn": "球！"
+  },
+  {
+    "text": "Yakka Yak! I know you can!",
+    "from": "2:46",
+    "to": "2:48",
+    "cn": "雅卡呀呀！我知道你能行！"
+  },
+  {
+    "text": "It will fill you up with whizz, pop, bang!",
+    "from": "2:48",
+    "to": "2:53",
+    "cn": "它会让你吃饱，嗞、啵、嘭！"
+  },
+  {
+    "text": "Ball!",
+    "from": "2:53",
+    "to": "2:54",
+    "cn": "球！"
+  },
+  {
+    "text": "You say ball.",
+    "from": "2:54",
+    "to": "2:55",
+    "cn": "你说球。"
+  },
+  {
+    "text": "More ball!",
+    "from": "2:57",
+    "to": "2:58",
+    "cn": "更多球！"
+  },
+  {
+    "text": "Let's go again!",
+    "from": "2:58",
+    "to": "3:00",
+    "cn": "我们再来一次！"
+  },
+  {
+    "text": "Ball!",
+    "from": "3:01",
+    "to": "3:02",
+    "cn": "球！"
+  },
+  {
+    "text": "Green ball!",
+    "from": "3:03",
+    "to": "3:05",
+    "cn": "绿球！"
+  },
+  {
+    "text": "Blue ball.",
+    "from": "3:07",
+    "to": "3:08",
+    "cn": "蓝色球。"
+  },
+  {
+    "text": "Moo ball!",
+    "from": "3:10",
+    "to": "3:12",
+    "cn": "哞球！"
+  },
+  {
+    "text": "Moo!",
+    "from": "3:12",
+    "to": "3:14",
+    "cn": "哞！"
+  },
+  {
+    "text": "Boo! Balls!",
+    "from": "3:15",
+    "to": "3:17",
+    "cn": "嘘！球！"
+  },
+  {
+    "text": "Seat ball.",
+    "from": "3:19",
+    "to": "3:21",
+    "cn": "座球。"
+  },
+  {
+    "text": "Meatball.",
+    "from": "3:25",
+    "to": "3:27",
+    "cn": "肉丸。"
+  },
+  {
+    "text": "Yum, yum!",
+    "from": "3:27",
+    "to": "3:29",
+    "cn": "嗯，嗯！"
+  },
+  {
+    "text": "Bouncy ball.",
+    "from": "3:30",
+    "to": "3:32",
+    "cn": "弹力球。"
+  },
+  {
+    "text": "Ball! Whoa, whoa, whoa!",
+    "from": "3:35",
+    "to": "3:37",
+    "cn": "球！哇哇哇！"
+  },
+  {
+    "text": "Funny ball!",
+    "from": "3:39",
+    "to": "3:41",
+    "cn": "有趣的球！"
+  },
+  {
+    "text": "Sunny ball.",
+    "from": "3:45",
+    "to": "3:46",
+    "cn": "阳光球。"
+  },
+  {
+    "text": "Kick it ball.",
+    "from": "3:48",
+    "to": "3:50",
+    "cn": "踢球吧"
+  },
+  {
+    "text": "Ball!",
+    "from": "3:53",
+    "to": "3:54",
+    "cn": "球！"
+  },
+  {
+    "text": "Disco ball!",
+    "from": "3:56",
+    "to": "3:58",
+    "cn": "迪斯科舞会！"
+  },
+  {
+    "text": "# Superball! #",
+    "from": "4:04",
+    "to": "4:07",
+    "cn": "【歌曲】超级球！ #"
+  },
+  {
+    "text": "Sparkly ball.",
+    "from": "4:07",
+    "to": "4:09",
+    "cn": "闪闪发光的球。"
+  },
+  {
+    "text": "Ah!",
+    "from": "4:09",
+    "to": "4:10",
+    "cn": "啊！"
+  },
+  {
+    "text": "I am a ball!",
+    "from": "4:11",
+    "to": "4:14",
+    "cn": "我是一个球！"
+  },
+  {
+    "text": "Yakka Yak! I know you can!",
+    "from": "4:16",
+    "to": "4:19",
+    "cn": "雅卡呀呀！我知道你能行！"
+  },
+  {
+    "text": "It will fill you up with whizz, pop, bang!",
+    "from": "4:19",
+    "to": "4:23",
+    "cn": "它会让你吃饱，嗞、啵、嘭！"
+  },
+  {
+    "text": "You say ball.",
+    "from": "4:23",
+    "to": "4:24",
+    "cn": "你说球。"
+  },
+  {
+    "text": "Ball!",
+    "from": "4:24",
+    "to": "4:26",
+    "cn": "球！"
+  },
+  {
+    "text": "Yay! Yakka Dee!",
+    "from": "4:26",
+    "to": "4:29",
+    "cn": "耶！雅卡迪！"
+  },
+  {
+    "text": "You did it! Yeah!",
+    "from": "4:29",
+    "to": "4:31",
+    "cn": "你做到了！是的！"
+  },
+  {
+    "text": "- Ball!\n- Ball.\n- Ball.",
+    "from": "4:31",
+    "to": "4:33",
+    "cn": "- 球！\n- 球。\n- 球。"
+  },
+  {
+    "text": "- ALL:\n- Ball!",
+    "from": "4:33",
+    "to": "4:34",
+    "cn": "- 全部：\n- 球！"
+  },
+  {
+    "text": "# Hooray, yippee, we love to talk",
+    "from": "4:36",
+    "to": "4:38",
+    "cn": "【歌曲】万岁，yippee，我们喜欢说话"
+  },
+  {
+    "text": "- # Yakka Yak with me\n- # Me",
+    "from": "4:38",
+    "to": "4:40",
+    "cn": "- # 雅卡 Yak 和我在一起\n- #我"
+  },
+  {
+    "text": "# Talking makes us happy",
+    "from": "4:40",
+    "to": "4:42",
+    "cn": "【歌曲】说话让我们快乐"
+  },
+  {
+    "text": "# It's fun to Yakka Dee",
+    "from": "4:42",
+    "to": "4:44",
+    "cn": "【歌曲】雅卡 迪伊 很有趣"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee",
+    "from": "4:44",
+    "to": "4:46",
+    "cn": "【歌曲】雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Yakka Dee, Yakka Dee",
+    "from": "4:46",
+    "to": "4:48",
+    "cn": "【歌曲】雅卡迪，雅卡迪"
+  },
+  {
+    "text": "# Let's all Yakka Dee! #",
+    "from": "4:48",
+    "to": "4:52",
+    "cn": "【歌曲】大家一起雅卡迪吧！"
+  },
+  {
+    "text": "Goodbye!",
+    "from": "4:52",
+    "to": "4:53",
+    "cn": "再见！"
+  }
+]
