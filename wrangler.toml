@@ -1,3 +1,4 @@
 name = "yakka-dee-scriptbook"
-main = index.html"
 compatibility_date = "2026-07-20"
+# 纯静态站点，无构建步骤：直接把仓库根目录作为发布目录
+pages_build_output_dir = "."
